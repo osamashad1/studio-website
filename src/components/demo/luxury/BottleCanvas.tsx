@@ -2,7 +2,8 @@
 
 import dynamic from "next/dynamic";
 import { useEffect, useRef, useState } from "react";
-import { canUse3D } from "@/lib/webgl";
+import { useFrameloop } from "@/lib/useFrameloop";
+import { canUse3D, whenIdle } from "@/lib/webgl";
 
 const BottleScene = dynamic(() => import("./BottleScene"), { ssr: false });
 
@@ -34,10 +35,8 @@ export function BottleCanvas({ label, containerId }: { label: string; containerI
   const [inView, setInView] = useState(true);
   const [ready, setReady] = useState(false);
 
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- browser-only check
-    setUse3D(canUse3D());
-  }, []);
+  useEffect(() => whenIdle(() => setUse3D(canUse3D())), []);
+  const frameloop = useFrameloop(inView, ready);
 
   useEffect(() => {
     if (!use3D || !box.current) return;
@@ -64,7 +63,7 @@ export function BottleCanvas({ label, containerId }: { label: string; containerI
       {use3D === false && <BottleFallback label={label} />}
       {use3D && (
         <div className={`absolute inset-0 transition-opacity duration-1000 ${ready ? "opacity-100" : "opacity-0"}`}>
-          <BottleScene progress={progress} active={inView} onReady={() => setReady(true)} />
+          <BottleScene progress={progress} frameloop={frameloop} onReady={() => setReady(true)} />
         </div>
       )}
     </div>

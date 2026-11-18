@@ -74,17 +74,17 @@ function Bottle({ progress }: { progress: React.RefObject<number> }) {
 
 export default function BottleScene({
   progress,
-  active,
+  frameloop,
   onReady,
 }: {
   progress: React.RefObject<number>;
-  active: boolean;
+  frameloop: "always" | "demand" | "never";
   onReady: () => void;
 }) {
   return (
     <Canvas
       dpr={[1, 2]}
-      frameloop={active ? "always" : "never"}
+      frameloop={frameloop}
       camera={{ fov: 30, position: [0, 0.2, 9] }}
       gl={{ antialias: true, alpha: true }}
       onCreated={() => requestAnimationFrame(onReady)}

@@ -22,7 +22,7 @@ export function LanguageSwitcher({ className }: { className?: string }) {
             locale={l}
             hrefLang={l}
             aria-current={active ? "true" : undefined}
-            aria-label={t(l)}
+            aria-label={`${l.toUpperCase()} – ${t(l)}`}
             className={cn(
               "rounded-sm px-2 py-1 text-sm font-semibold uppercase transition-colors",
               active ? "bg-ink text-paper" : "hover:bg-signal",

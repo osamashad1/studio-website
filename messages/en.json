@@ -762,5 +762,111 @@
       "rateLimited": "Lots of messages are coming in right now. Please try again in a few minutes.",
       "generic": "Sorry, that didn't work. Please try again or email {email}."
     }
+  },
+  "legal": {
+    "englishNote": "This is an English translation for convenience. Only the German version is legally binding.",
+    "impressum": {
+      "title": "Legal notice (Impressum)",
+      "sections": [
+        {
+          "title": "Information according to § 5 DDG",
+          "text": [
+            "<FIRST NAME LAST NAME>\n<STUDIO NAME>\n<STREET AND NUMBER>\n<POSTCODE> Duisburg\nGermany"
+          ]
+        },
+        {
+          "title": "Contact",
+          "text": [
+            "Email: <EMAIL ADDRESS>\nPhone: <PHONE NUMBER (optional, recommended)>"
+          ]
+        },
+        {
+          "title": "VAT",
+          "text": [
+            "VAT ID according to § 27a UStG: <VAT ID – if available>",
+            "OR: No VAT is charged according to § 19 UStG (small business regulation). <DELETE WHAT DOES NOT APPLY>"
+          ]
+        },
+        {
+          "title": "Responsible for content according to § 18 (2) MStV",
+          "text": [
+            "<FIRST NAME LAST NAME>, address as above"
+          ]
+        },
+        {
+          "title": "Consumer dispute resolution",
+          "text": [
+            "I am neither willing nor obliged to take part in dispute resolution proceedings before a consumer arbitration board."
+          ]
+        },
+        {
+          "title": "Liability for content and links",
+          "text": [
+            "The content of this website was created with care. However, I cannot guarantee that it is correct, complete and up to date. The operators of external links are solely responsible for their content.",
+            "The demo projects on this website (e.g. “Café Hafenbohne”, “Müller Elektro”, “Gaibandha Jute Co.”, “Maison Noir Duft”) are invented. Any similarity to real businesses is unintended."
+          ]
+        }
+      ]
+    },
+    "datenschutz": {
+      "title": "Privacy policy",
+      "intro": "Last updated: <DATE>. This policy explains which personal data is processed when you visit this website.",
+      "sections": [
+        {
+          "title": "1. Controller",
+          "text": [
+            "<FIRST NAME LAST NAME>, <STUDIO NAME>\n<STREET AND NUMBER>, <POSTCODE> Duisburg, Germany\nEmail: <EMAIL ADDRESS>"
+          ]
+        },
+        {
+          "title": "2. Hosting (Netlify)",
+          "text": [
+            "This website is hosted by Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, USA. When you visit the website, Netlify processes technically necessary data (e.g. IP address, date and time, page visited, browser) in server log files to deliver the website and protect it against attacks.",
+            "The legal basis is Art. 6(1)(f) GDPR (legitimate interest in secure, stable operation). Transfers to the USA are based on the EU-US Data Privacy Framework or standard contractual clauses. A data processing agreement with Netlify is in place. <CHECK: DPA WITH NETLIFY SIGNED>"
+          ]
+        },
+        {
+          "title": "3. Fonts",
+          "text": [
+            "Fonts are served locally from this server (self-hosted via next/font). No connection is made to Google Fonts servers."
+          ]
+        },
+        {
+          "title": "4. Project request form and email delivery (Resend)",
+          "text": [
+            "When you use the request form, I process your details (name, email, type of business, services needed, budget, start date, message) to answer your request. The legal basis is Art. 6(1)(b) GDPR (pre-contractual measures) or Art. 6(1)(f) GDPR.",
+            "To deliver the request to me I use Resend (Resend, Inc., USA). Transfers to the USA are based on standard contractual clauses or the EU-US Data Privacy Framework. <CHECK: DPA WITH RESEND>",
+            "Your data is deleted once it is no longer needed for this purpose and no legal retention obligations apply."
+          ]
+        },
+        {
+          "title": "5. Abuse protection (Upstash)",
+          "text": [
+            "To protect the form and the chat against spam and abuse, the number of requests from one IP address is counted for a short time. I use Upstash for this (Upstash, Inc.; database region: <REGION, e.g. Frankfurt>). Entries expire automatically after a few minutes. The legal basis is Art. 6(1)(f) GDPR."
+          ]
+        },
+        {
+          "title": "6. AI chat assistant (Google Gemini)",
+          "text": [
+            "You can use an AI assistant on this website. Your messages are sent to Google's Gemini API (Google Ireland Ltd. / Google LLC) to generate the answers. Please do not enter sensitive data in the chat.",
+            "If you explicitly agree in the chat, your name, email, type of business and project description are forwarded to me by email (via Resend, see section 4).",
+            "The legal basis is Art. 6(1)(b) or (f) GDPR, and your consent (Art. 6(1)(a) GDPR) for forwarding your details. <CHECK: On the free Gemini tier, Google may use inputs to improve its services. For live operation, check the paid tier or the current terms and update this section.>"
+          ]
+        },
+        {
+          "title": "7. Cookies and tracking",
+          "text": [
+            "This website sets no tracking or marketing cookies and uses no analytics tools. Therefore no cookie banner is needed."
+          ]
+        },
+        {
+          "title": "8. Your rights",
+          "text": [
+            "You have the right of access (Art. 15), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and to object (Art. 21 GDPR). You can withdraw consent at any time with effect for the future.",
+            "You can lodge a complaint with a data protection supervisory authority, e.g. the State Commissioner for Data Protection and Freedom of Information of North Rhine-Westphalia (LDI NRW)."
+          ]
+        }
+      ]
+    }
   }
 }

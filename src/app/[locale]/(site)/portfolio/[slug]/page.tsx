@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { use } from "react";
+import { alternates } from "@/lib/seo";
 import { MiniSite } from "@/components/portfolio/MiniSite";
 import { Badge } from "@/components/ui/Badge";
 import { ButtonLink } from "@/components/ui/Button";
@@ -18,7 +19,7 @@ export async function generateMetadata({ params }: PageProps<"/[locale]/portfoli
   const { locale, slug } = await params;
   if (!getItem(slug)) return {};
   const t = await getTranslations({ locale, namespace: "cases" });
-  return { title: t(`${slug}.title`), description: t(`${slug}.summary`) };
+  return { title: t(`${slug}.title`), description: t(`${slug}.summary`), alternates: alternates(locale, `/portfolio/${slug}`) };
 }
 
 export default function CaseStudyPage({ params }: PageProps<"/[locale]/portfolio/[slug]">) {

@@ -20,7 +20,9 @@ export const site = {
   phone: null as string | null, // optional, e.g. "+49 203 123456"
   city: "Duisburg",
   country: "DE",
-  url: "https://example.com", // TODO: your domain, e.g. https://mydomain.de
+  // Your domain. On Netlify the site URL is filled in automatically (URL); set
+  // NEXT_PUBLIC_SITE_URL=https://mydomain.de once your own domain is connected.
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? process.env.URL ?? "https://example.com",
 
   /**
    * false = site is hidden from Google (noindex). Set to true only when names, Impressum

@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { use } from "react";
+import { alternates } from "@/lib/seo";
 import { PortfolioGrid } from "@/components/portfolio/PortfolioGrid";
 import { Section } from "@/components/ui/Section";
 
 export async function generateMetadata({ params }: PageProps<"/[locale]/portfolio">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "portfolioPage" });
-  return { title: t("metaTitle"), description: t("intro") };
+  return { title: t("metaTitle"), description: t("intro"), alternates: alternates(locale, "/portfolio") };
 }
 
 export default function PortfolioPage({ params }: PageProps<"/[locale]/portfolio">) {

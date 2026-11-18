@@ -3,7 +3,8 @@
 import dynamic from "next/dynamic";
 import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/cn";
-import { canUse3D } from "@/lib/webgl";
+import { useFrameloop } from "@/lib/useFrameloop";
+import { canUse3D, whenIdle } from "@/lib/webgl";
 import { HeroFallback } from "./HeroFallback";
 
 // The 3D code (three.js) loads only in the browser, after the page is visible.
@@ -17,10 +18,9 @@ export function HeroCanvas({ label }: { label: string }) {
   const [ready, setReady] = useState(false);
 
   // Decide once in the browser whether to show 3D (needs WebGL, no reduced motion).
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- browser-only check
-    setUse3D(canUse3D());
-  }, []);
+  // Decide in the browser, once the page is idle, whether to show 3D.
+  useEffect(() => whenIdle(() => setUse3D(canUse3D())), []);
+  const frameloop = useFrameloop(inView, ready);
 
   // Pause rendering when the hero is off screen; track scroll progress for the camera.
   useEffect(() => {
@@ -61,7 +61,7 @@ export function HeroCanvas({ label }: { label: string }) {
             ready ? "opacity-100" : "opacity-0",
           )}
         >
-          <HeroScene scrollRef={scroll} active={inView} onReady={() => setReady(true)} />
+          <HeroScene scrollRef={scroll} frameloop={frameloop} onReady={() => setReady(true)} />
         </div>
       )}
     </div>

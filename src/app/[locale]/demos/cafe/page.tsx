@@ -3,6 +3,7 @@ import { DM_Sans, Fraunces } from "next/font/google";
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { use } from "react";
+import { alternates } from "@/lib/seo";
 import { DemoForm } from "@/components/demo/DemoForm";
 
 const display = Fraunces({ subsets: ["latin"], variable: "--font-cafe-display", display: "swap" });
@@ -11,7 +12,7 @@ const body = DM_Sans({ subsets: ["latin"], variable: "--font-cafe-body", display
 export async function generateMetadata({ params }: PageProps<"/[locale]/demos/cafe">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "demoCafe" });
-  return { title: t("metaTitle") };
+  return { title: { absolute: t("metaTitle") }, alternates: alternates(locale, "/demos/cafe") };
 }
 
 type MenuGroup = { title: string; items: { name: string; desc: string; price: string }[] };
@@ -54,9 +55,9 @@ export default function CafeDemo({ params }: PageProps<"/[locale]/demos/cafe">) 
       <header className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-4 gap-y-3 px-5 py-6">
         <p className="font-[family-name:var(--font-cafe-display)] text-[24px] font-semibold italic">Hafenbohne</p>
         <nav aria-label={t("navLabel")} className="flex gap-4 text-sm font-medium sm:gap-6 sm:text-base">
-          <a href="#karte" className="hover:text-[#C8643B]">{t("nav.menu")}</a>
-          <a href="#zeiten" className="hover:text-[#C8643B]">{t("nav.hours")}</a>
-          <a href="#reservieren" className="hover:text-[#C8643B]">{t("nav.reserve")}</a>
+          <a href="#karte" className="hover:text-[#AE5129]">{t("nav.menu")}</a>
+          <a href="#zeiten" className="hover:text-[#AE5129]">{t("nav.hours")}</a>
+          <a href="#reservieren" className="hover:text-[#AE5129]">{t("nav.reserve")}</a>
         </nav>
       </header>
 
@@ -67,7 +68,7 @@ export default function CafeDemo({ params }: PageProps<"/[locale]/demos/cafe">) 
             <h1 className="text-5xl leading-[1.05] sm:text-6xl">{t("hero.title")}</h1>
             <p className="max-w-[44ch] text-lg opacity-85">{t("hero.text")}</p>
             <div className="flex flex-wrap gap-3">
-              <a href="#reservieren" className="rounded-full bg-[#C8643B] px-6 py-3 font-semibold text-white hover:bg-[#3B2A20]">
+              <a href="#reservieren" className="rounded-full bg-[#AE5129] px-6 py-3 font-semibold text-white hover:bg-[#3B2A20]">
                 {t("hero.cta")}
               </a>
               <a href="#karte" className="rounded-full border-2 border-[#3B2A20] px-6 py-3 font-semibold hover:bg-[#3B2A20] hover:text-[#F4EDE4]">
@@ -125,7 +126,7 @@ export default function CafeDemo({ params }: PageProps<"/[locale]/demos/cafe">) 
               <span aria-hidden className="absolute top-1/3 left-0 h-6 w-full -rotate-6 bg-[#F4EDE4]" />
               <span aria-hidden className="absolute top-0 left-1/2 h-full w-5 rotate-12 bg-[#F4EDE4]" />
               <span aria-hidden className="absolute right-0 bottom-0 h-1/3 w-2/3 rounded-tl-[80px] bg-[#7FA3B8]/60" />
-              <span aria-hidden className="absolute top-[38%] left-[46%] size-6 rounded-full border-4 border-white bg-[#C8643B] shadow" />
+              <span aria-hidden className="absolute top-[38%] left-[46%] size-6 rounded-full border-4 border-white bg-[#AE5129] shadow" />
             </div>
             <p className="opacity-80">{t("map.address")}</p>
           </div>
@@ -137,8 +138,8 @@ export default function CafeDemo({ params }: PageProps<"/[locale]/demos/cafe">) 
             <p className="mt-3 opacity-80">{t("form.text")}</p>
             <DemoForm
               className="mt-10"
-              inputClassName="border-[#3B2A20]/20 bg-white focus:border-[#C8643B] focus:outline-none"
-              buttonClassName="rounded-full bg-[#C8643B] text-white hover:bg-[#3B2A20]"
+              inputClassName="border-[#3B2A20]/20 bg-white focus:border-[#AE5129] focus:outline-none"
+              buttonClassName="rounded-full bg-[#AE5129] text-white hover:bg-[#3B2A20]"
               submit={t("form.submit")}
               success={t("form.success")}
               requiredError={t("form.error")}

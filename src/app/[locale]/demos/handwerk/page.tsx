@@ -3,6 +3,7 @@ import { Archivo, Inter } from "next/font/google";
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { use } from "react";
+import { alternates } from "@/lib/seo";
 import { DemoForm } from "@/components/demo/DemoForm";
 
 const display = Archivo({ subsets: ["latin"], variable: "--font-hw-display", display: "swap" });
@@ -14,7 +15,7 @@ const DEMO_PHONE = "+490000000000";
 export async function generateMetadata({ params }: PageProps<"/[locale]/demos/handwerk">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "demoHandwerk" });
-  return { title: t("metaTitle") };
+  return { title: { absolute: t("metaTitle") }, alternates: alternates(locale, "/demos/handwerk") };
 }
 
 function Bolt({ className }: { className?: string }) {

@@ -3,6 +3,7 @@ import { IBM_Plex_Sans, IBM_Plex_Serif } from "next/font/google";
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { use } from "react";
+import { alternates } from "@/lib/seo";
 import { DemoForm } from "@/components/demo/DemoForm";
 
 const display = IBM_Plex_Serif({ subsets: ["latin"], weight: ["500", "600"], variable: "--font-ex-display", display: "swap" });
@@ -11,7 +12,7 @@ const body = IBM_Plex_Sans({ subsets: ["latin"], weight: ["400", "500", "600"], 
 export async function generateMetadata({ params }: PageProps<"/[locale]/demos/export">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "demoExport" });
-  return { title: t("metaTitle") };
+  return { title: { absolute: t("metaTitle") }, alternates: alternates(locale, "/demos/export") };
 }
 
 type Product = { name: string; text: string; specs: { label: string; value: string }[] };

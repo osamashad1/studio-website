@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Manrope } from "next/font/google";
 import { useTranslations } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { use } from "react";
+import { alternates } from "@/lib/seo";
 import { DemoForm } from "@/components/demo/DemoForm";
 import { BottleCanvas } from "@/components/demo/luxury/BottleCanvas";
 
@@ -12,7 +13,7 @@ const body = Manrope({ subsets: ["latin"], variable: "--font-lx-body", display: 
 export async function generateMetadata({ params }: PageProps<"/[locale]/demos/luxury">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "demoLuxury" });
-  return { title: t("metaTitle") };
+  return { title: { absolute: t("metaTitle") }, alternates: alternates(locale, "/demos/luxury") };
 }
 
 export default function LuxuryDemo({ params }: PageProps<"/[locale]/demos/luxury">) {
@@ -71,7 +72,7 @@ export default function LuxuryDemo({ params }: PageProps<"/[locale]/demos/luxury
             <ul className="mt-14 grid gap-px bg-[#F2EDE4]/10 md:grid-cols-3">
               {scents.map((s, i) => (
                 <li key={s.name} className="flex flex-col gap-4 bg-[#0B0B0C] p-8 md:p-10">
-                  <span className="font-[family-name:var(--font-lx-display)] text-6xl text-[#C9A45C]/40">{["I", "II", "III"][i]}</span>
+                  <span aria-hidden className="font-[family-name:var(--font-lx-display)] text-6xl text-[#C9A45C]/70">{["I", "II", "III"][i]}</span>
                   <h3 className="text-[30px]">{s.name}</h3>
                   <p className="text-sm tracking-[0.15em] text-[#C9A45C]">{s.notes}</p>
                   <p className="text-[#F2EDE4]/70">{s.text}</p>

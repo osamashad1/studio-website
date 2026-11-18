@@ -25,7 +25,7 @@ export function Services() {
             aria-hidden
             className="absolute top-8 right-8 h-8 w-20 rounded-sm bg-signal -rotate-6"
           />
-          <p className="font-semibold text-white/80">{t("web.kicker")}</p>
+          <p className="font-semibold text-white">{t("web.kicker")}</p>
           <h3 className="max-w-md text-xl font-bold sm:text-2xl">{t("web.title")}</h3>
           <p className="max-w-[52ch] text-lg text-white/90">{t("web.text")}</p>
           <ul className="relative grid gap-3 sm:grid-cols-2">

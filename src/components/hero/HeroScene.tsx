@@ -15,15 +15,15 @@ const deg = THREE.MathUtils.degToRad;
 type Props = {
   /** 0 → 1 while the hero scrolls out of view (drives the camera move). */
   scrollRef: React.RefObject<number>;
-  active: boolean;
+  frameloop: "always" | "demand" | "never";
   onReady: () => void;
 };
 
-export default function HeroScene({ scrollRef, active, onReady }: Props) {
+export default function HeroScene({ scrollRef, frameloop, onReady }: Props) {
   return (
     <Canvas
       dpr={[1, 2]}
-      frameloop={active ? "always" : "never"}
+      frameloop={frameloop}
       camera={{ fov: 32, position: [0, 0, 12] }}
       gl={{ antialias: true, alpha: true, powerPreference: "high-performance" }}
       onCreated={() => requestAnimationFrame(onReady)}

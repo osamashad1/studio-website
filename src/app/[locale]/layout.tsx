@@ -29,9 +29,11 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
   return {
-    title: t("title"),
+    metadataBase: new URL(site.url),
+    title: { default: t("title"), template: `%s · ${site.studioName}` },
     description: t("description"),
     // Hidden from search engines until launch (see `launched` in src/config/site.ts)
+    openGraph: { type: "website", locale: locale === "de" ? "de_DE" : "en_US", siteName: site.studioName },
     robots: site.launched ? undefined : { index: false, follow: false },
   };
 }
