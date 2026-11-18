@@ -39,6 +39,9 @@ AI chatbots and automation. I take 1 new project per month (limited capacity).
   64px headlines only from sm (640px) up; on phones max 40px (Unbounded at 64px overflows 375px).
 - Radius: 8px small elements, 20px large panels.
 - Motion: ONE strong moment (the 3D hero). Everything else calm. Respect prefers-reduced-motion.
+- Hero style: CINEMATIC — full-screen dark (ink) hero, glossy 3D blocks with dramatic
+  studio light and glow, subtle scroll-driven camera move. Real-time three.js only (no paid
+  AI video). All other sections stay light (paper/white), fast and trustworthy.
 - Avoid: generic SaaS card grids, ALL-CAPS labels, "01/02/03" numbers unless it is a real sequence,
   arrows "→" on every button, gradient washes everywhere.
 
@@ -72,3 +75,6 @@ AI chatbots and automation. I take 1 new project per month (limited capacity).
   Resend free. Builders: Claude Code / Google Antigravity / Gemini CLI (all read this file;
   AGENTS.md and GEMINI.md point here).
 - 2026-11-18: One language switcher on the site; brand assets in German only (one version).
+- 2026-11-18: Inspired by cinematic 3D sites: cinematic dark hero only, rest of site light.
+  Added a 4th demo: original luxury brand in cinematic dark style. Free tools only (no Higgsfield credits).
+- 2026-11-18: GitHub repo osamashad1/studio-website (public — never commit secrets).

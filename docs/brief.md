@@ -22,7 +22,7 @@
    - Project form
 2. /portfolio — all work, filter by: Websites, Design, Google Ads
 3. /portfolio/[slug] — case study page (problem, solution, result, images)
-4. /demos/cafe, /demos/handwerk, /demos/export — 3 working demo websites (see below)
+4. /demos/cafe, /demos/handwerk, /demos/export, /demos/luxury — 4 working demo websites (see below)
 5. /impressum and /datenschutz (legal pages, German law, placeholders for my details)
 
 ## Packages (prices are placeholders, I will set them in site.ts)
@@ -31,11 +31,14 @@
 - Growth: Business + Google Ads setup for 1 month + AI chat assistant — from €<Z>
 - Custom: web app, online shop, automation — price on request
 
-## 3 demo projects (clearly labeled as demo)
+## 4 demo projects (clearly labeled as demo)
 1. Café "Hafenbohne" (Duisburg) — warm, menu, opening hours, table reservation form, map placeholder.
 2. Handwerk "Müller Elektro" — trust-focused, services, emergency phone button, quote request form.
 3. Export "Gaibandha Jute Co." — B2B, product catalogue (jute sacks, jute bags, jute-stick charcoal),
    MOQ, enquiry form, English first.
+4. Luxury "Maison Noir Duft" (invented fragrance brand, original design) — cinematic dark site:
+   full-screen 3D product hero (real-time three.js: glass bottle with glow), elegant serif type,
+   scroll-driven story (ingredients → craft → bottle), collection, enquiry form. Shows premium work.
 Each demo: its own colors and fonts (different from the studio site), fully responsive,
 and a small banner "Demo von <Studio Name> — so könnte Ihre Website aussehen".
 
@@ -53,6 +56,7 @@ and a small banner "Demo von <Studio Name> — so könnte Ihre Website aussehen"
 
 ## Look and feel
 - Words: bold, modern, trustworthy, a bit playful. Eye-catching but clean.
+- Hero: cinematic, full-screen dark section (rest of site light).
 - 3D hero idea: floating glossy building blocks (cobalt, with one signal-yellow block)
   that slowly assemble into a website/browser window shape; they react to the mouse.
 - Mood: Duisburg harbour + modern tech — industrial shapes, clean light.

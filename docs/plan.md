@@ -1,6 +1,6 @@
 # Build plan — <Studio Name> website (free stack)
 
-Status: Phase 1 (plan) — waiting for OK. No code written yet.
+Status: Phases 1–3 done (plan, setup, design system). Next: Phase 4.
 
 ## Phases
 
@@ -8,9 +8,9 @@ Status: Phase 1 (plan) — waiting for OK. No code written yet.
 |---|---|---|---|
 | 2 | Setup | Next.js + TS strict + Tailwind + ESLint (pnpm), next-intl /de /en, `site.ts`, `.env.example`, Netlify config | `pnpm build` passes, `/de` and `/en` show "Hello" from message files |
 | 3 | Design system | Tailwind tokens, fonts, `ui/` components, Header (nav + DE/EN switcher + CTA, mobile menu), Footer, `/styleguide` | Styleguide looks right at 375 / 1440 px, keyboard focus visible |
-| 4 | 3D hero | R3F scene: 10 cobalt blocks + 1 yellow assemble into a browser window (same layout as Stewdio), mouse tilt, lazy-load, pause off-screen, PNG fallback | Smooth on a mid-range phone; fallback shows with WebGL off / reduced motion |
+| 4 | Cinematic 3D hero | Full-screen dark hero, R3F scene with glow + scroll camera move: 10 cobalt blocks + 1 yellow assemble into a browser window (same layout as Stewdio), mouse tilt, lazy-load, pause off-screen, PNG fallback | Smooth on a mid-range phone; fallback shows with WebGL off / reduced motion |
 | 5 | Home sections | Availability badge, services (websites biggest), packages, portfolio preview, how we work, about, FAQ, `#kontakt` placeholder | All text from JSON, no generic card grid |
-| 6 | Portfolio + demos | `/portfolio` + filters, `/portfolio/[slug]`, demos café / handwerk / export with own look + demo banner | Each demo looks like a real client site, forms show success only |
+| 6 | Portfolio + demos | `/portfolio` + filters, `/portfolio/[slug]`, demos café / handwerk / export / luxury (cinematic) with own look + demo banner | Each demo looks like a real client site, forms show success only |
 | 7 | Project form | Form + zod, `/api/contact` (honeypot, Upstash rate limit, Resend) | Test email arrives in your inbox |
 | 8 | AI assistant | Chat bubble (not on /demos), `/api/chat` with AI SDK + Gemini, tools get_packages / get_availability / save_lead, limits, starter questions | Passes the 15 test questions incl. "promise me a price" |
 | 9 | Legal, SEO, perf | Impressum / Datenschutz (Netlify, Resend, Google Gemini, self-hosted fonts), metadata, OG image, sitemap, robots, hreflang, LocalBusiness JSON-LD | Lighthouse mobile 90+ in all 4 scores |
@@ -29,7 +29,7 @@ studio-website/
    │  ├─ [locale]/
    │  │  ├─ layout.tsx  page.tsx (home)
    │  │  ├─ portfolio/page.tsx  portfolio/[slug]/page.tsx
-   │  │  ├─ demos/cafe  demos/handwerk  demos/export   (own layout, no chat)
+   │  │  ├─ demos/cafe  demos/handwerk  demos/export  demos/luxury   (own layout, no chat)
    │  │  ├─ impressum/page.tsx  datenschutz/page.tsx  styleguide/page.tsx
    │  ├─ api/contact/route.ts  api/chat/route.ts
    │  ├─ sitemap.ts  robots.ts
