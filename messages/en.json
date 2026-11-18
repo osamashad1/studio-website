@@ -736,5 +736,31 @@
         "unsure": "Not sure yet"
       }
     }
+  },
+  "chat": {
+    "open": "Questions?",
+    "close": "Close",
+    "title": "Studio assistant",
+    "subtitle": "AI assistant · replies instantly",
+    "welcome": "Hi! I can answer your questions about websites, packages and the process. How can I help?",
+    "starters": [
+      "How much does a website cost?",
+      "How long does a project take?",
+      "Which package suits my café?"
+    ],
+    "placeholder": "Your question …",
+    "inputLabel": "Message to the assistant",
+    "send": "Send",
+    "you": "You",
+    "assistant": "Assistant",
+    "typing": "Assistant is typing",
+    "leadSaved": "✓ Your details have been passed on.",
+    "limit": "You've reached the maximum number of messages. For anything else, please use the \"Request a project\" form – I'll get back to you personally.",
+    "privacy": "The chat is processed by an AI provider (Google). More in the <link>privacy policy</link>.",
+    "errors": {
+      "notConfigured": "The assistant isn't available right now. Feel free to email me at {email} or use the form.",
+      "rateLimited": "Lots of messages are coming in right now. Please try again in a few minutes.",
+      "generic": "Sorry, that didn't work. Please try again or email {email}."
+    }
   }
 }

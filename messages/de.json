@@ -736,5 +736,31 @@
         "unsure": "Noch unklar"
       }
     }
+  },
+  "chat": {
+    "open": "Fragen?",
+    "close": "Schließen",
+    "title": "Studio-Assistent",
+    "subtitle": "KI-Assistent · antwortet sofort",
+    "welcome": "Hallo! Ich beantworte Ihre Fragen zu Websites, Paketen und Ablauf. Wie kann ich helfen?",
+    "starters": [
+      "Was kostet eine Website?",
+      "Wie lange dauert ein Projekt?",
+      "Welches Paket passt zu meinem Café?"
+    ],
+    "placeholder": "Ihre Frage …",
+    "inputLabel": "Nachricht an den Assistenten",
+    "send": "Senden",
+    "you": "Sie",
+    "assistant": "Assistent",
+    "typing": "Assistent schreibt",
+    "leadSaved": "✓ Ihre Angaben wurden weitergeleitet.",
+    "limit": "Sie haben die maximale Anzahl an Nachrichten erreicht. Für alles Weitere nutzen Sie bitte das Formular „Projekt anfragen“ – ich melde mich persönlich.",
+    "privacy": "Der Chat wird von einem KI-Anbieter (Google) verarbeitet. Mehr in der <link>Datenschutzerklärung</link>.",
+    "errors": {
+      "notConfigured": "Der Assistent ist gerade nicht verfügbar. Schreiben Sie mir gern an {email} oder nutzen Sie das Formular.",
+      "rateLimited": "Gerade kommen sehr viele Nachrichten an. Bitte versuchen Sie es in ein paar Minuten noch einmal.",
+      "generic": "Das hat leider nicht geklappt. Versuchen Sie es noch einmal oder schreiben Sie an {email}."
+    }
   }
 }
