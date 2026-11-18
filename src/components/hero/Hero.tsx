@@ -39,14 +39,13 @@ export function Hero() {
           </h1>
           <p className="max-w-[46ch] text-lg text-paper/80">{t("subtitle")}</p>
           <div className="flex flex-wrap gap-3 pt-2">
-            <ButtonLink href={contactHref} size="lg" className="hover:bg-signal hover:text-ink">
+            <ButtonLink href={contactHref} size="lg" variant="onDarkPrimary">
               {t("cta")}
             </ButtonLink>
             <ButtonLink
               href="/#pakete"
               size="lg"
-              variant="secondary"
-              className="border-paper/40 text-paper hover:border-signal hover:text-ink"
+              variant="onDarkSecondary"
             >
               {t("secondary")}
             </ButtonLink>

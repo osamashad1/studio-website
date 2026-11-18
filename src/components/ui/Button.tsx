@@ -2,7 +2,8 @@ import type { ComponentProps } from "react";
 import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/cn";
 
-type Variant = "primary" | "secondary";
+/** primary/secondary: on light backgrounds. onDark*: on ink. light: on cobalt panels. */
+type Variant = "primary" | "secondary" | "onDarkPrimary" | "onDarkSecondary" | "light";
 type Size = "md" | "lg";
 
 const base =
@@ -12,6 +13,10 @@ const variants: Record<Variant, string> = {
   primary: "bg-cobalt text-white hover:bg-ink active:bg-ink",
   secondary:
     "border-2 border-ink bg-transparent text-ink hover:bg-signal hover:border-ink",
+  onDarkPrimary: "bg-cobalt text-white hover:bg-signal hover:text-ink",
+  onDarkSecondary:
+    "border-2 border-paper/40 bg-transparent text-paper hover:border-signal hover:bg-signal hover:text-ink",
+  light: "bg-white text-ink hover:bg-signal",
 };
 
 const sizes: Record<Size, string> = {

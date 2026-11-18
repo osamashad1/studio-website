@@ -131,7 +131,7 @@ export default function StyleguidePage({ params }: PageProps<"/[locale]/stylegui
       <Section tone="ink" aria-labelledby="sg-dark">
         <h2 id="sg-dark" className="text-xl font-bold">{t("dark")}</h2>
         <div className="mt-8 flex flex-wrap gap-4">
-          <ButtonLink href="/#kontakt">{t("ctaPrimary")}</ButtonLink>
+          <ButtonLink href="/#kontakt" variant="onDarkPrimary">{t("ctaPrimary")}</ButtonLink>
           <Badge tone="highlight">{t("badgeRecommended")}</Badge>
         </div>
       </Section>

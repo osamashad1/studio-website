@@ -70,5 +70,169 @@
     "cta": "Projekt anfragen",
     "secondary": "Pakete ansehen",
     "sceneLabel": "Glänzende blaue Bausteine, die sich zu einem Browserfenster zusammensetzen – mit einem gelben Button-Baustein."
+  },
+  "services": {
+    "title": "Was ich für Sie baue",
+    "intro": "Im Mittelpunkt steht Ihre Website. Alles andere sorgt dafür, dass sie gefunden wird und Anfragen bringt.",
+    "web": {
+      "kicker": "Schwerpunkt",
+      "title": "Websites & Web-Apps",
+      "text": "Moderne, schnelle Websites, die auf dem Handy genauso gut funktionieren wie am Laptop – und Besucher zu Anfragen machen.",
+      "points": [
+        "Individuelles Design statt Baukasten",
+        "Für Handy optimiert",
+        "Deutsch & Englisch",
+        "Kontakt- und Buchungsformulare",
+        "Schnelle Ladezeiten",
+        "Web-Apps & Online-Shops auf Anfrage"
+      ],
+      "cta": "Website-Projekt anfragen"
+    },
+    "ads": {
+      "title": "Google Ads & SEO",
+      "text": "Damit Kunden Sie finden: Google-Unternehmensprofil, Suchmaschinen-Grundlagen und Anzeigen, die zu Ihrem Budget passen."
+    },
+    "design": {
+      "title": "Grafikdesign",
+      "text": "Logo, Farben, Flyer und Social-Media-Grafiken – ein Auftritt, der zusammenpasst."
+    },
+    "ai": {
+      "title": "KI-Chatbots & Automatisierung",
+      "text": "Ein Assistent, der Fragen rund um die Uhr beantwortet, und Abläufe, die Ihnen Routinearbeit abnehmen."
+    }
+  },
+  "packages": {
+    "title": "Pakete",
+    "intro": "Feste Pakete mit klarem Umfang – oder ein individuelles Angebot für größere Projekte.",
+    "recommended": "Empfohlen",
+    "from": "ab {price}",
+    "priceTbd": "Preis folgt",
+    "choose": "{name} anfragen",
+    "note": "Alle Preise sind Startpreise zzgl. MwSt. Den genauen Preis erhalten Sie nach dem kostenlosen Erstgespräch.",
+    "start": {
+      "name": "Start",
+      "for": "Für den ersten professionellen Auftritt.",
+      "features": [
+        "One-Page-Website",
+        "Für Handy optimiert",
+        "Kontaktformular",
+        "SEO-Grundlagen"
+      ]
+    },
+    "business": {
+      "name": "Business",
+      "for": "Für Unternehmen, die online gefunden werden wollen.",
+      "features": [
+        "Bis zu 6 Seiten",
+        "Zweisprachig (DE/EN)",
+        "Google-Unternehmensprofil",
+        "SEO-Einrichtung"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "for": "Für mehr Anfragen ab dem ersten Monat.",
+      "features": [
+        "Alles aus Business",
+        "Google-Ads-Einrichtung + 1 Monat Betreuung",
+        "KI-Chat-Assistent"
+      ]
+    },
+    "custom": {
+      "name": "Individuelles Projekt",
+      "text": "Web-App, Online-Shop oder Automatisierung – Preis auf Anfrage.",
+      "cta": "Projekt besprechen"
+    }
+  },
+  "portfolioPreview": {
+    "title": "Arbeiten & Demos",
+    "intro": "So könnte Ihre Website aussehen. Die Demo-Projekte sind frei erfunden und als Demo gekennzeichnet.",
+    "all": "Ganzes Portfolio",
+    "demoLabel": "Demo-Projekt"
+  },
+  "demos": {
+    "cafe": {
+      "name": "Café Hafenbohne",
+      "summary": "Warmes Café in Duisburg: Speisekarte, Öffnungszeiten und Tischreservierung."
+    },
+    "handwerk": {
+      "name": "Müller Elektro",
+      "summary": "Elektrobetrieb mit Notdienst-Button, Leistungen und Angebotsanfrage."
+    },
+    "export": {
+      "name": "Gaibandha Jute Co.",
+      "summary": "B2B-Exporteur: Produktkatalog für Jute-Säcke, -Taschen und Holzkohle, Mindestmengen, Anfrageformular."
+    },
+    "luxury": {
+      "name": "Maison Noir Duft",
+      "summary": "Kinoreifer Auftritt für eine Duftmarke: 3D-Flakon, Scroll-Story, Kollektion."
+    }
+  },
+  "process": {
+    "title": "So arbeiten wir zusammen",
+    "intro": "Vier klare Schritte – Sie wissen immer, was als Nächstes passiert.",
+    "call": {
+      "title": "Kostenloses Erstgespräch",
+      "text": "Wir sprechen über Ihr Unternehmen, Ihre Ziele und Ihr Budget. Danach erhalten Sie ein konkretes Angebot."
+    },
+    "concept": {
+      "title": "Konzept & Design",
+      "text": "Ich plane Inhalte und Struktur und zeige Ihnen das Design, bevor programmiert wird."
+    },
+    "build": {
+      "title": "Umsetzung",
+      "text": "Ich baue die Website, Sie prüfen sie auf einer Vorschau-Adresse und geben Feedback."
+    },
+    "launch": {
+      "title": "Launch & Anzeigen",
+      "text": "Die Website geht online, Google-Profil und auf Wunsch Google Ads werden eingerichtet."
+    }
+  },
+  "about": {
+    "title": "Hallo, ich bin {name}.",
+    "photoAlt": "Foto von {name}",
+    "photoPlaceholder": "Platzhalter für Ihr Foto",
+    "text": [
+      "Ich studiere in Duisburg und verbinde drei Dinge, die meist drei verschiedene Agenturen übernehmen: Design, Entwicklung und Google Ads.",
+      "Ich nehme nur ein neues Projekt pro Monat an. So bekommen Sie meine volle Aufmerksamkeit – persönlich, auf Deutsch oder Englisch."
+    ],
+    "skills": [
+      "Webdesign",
+      "Web-Entwicklung",
+      "Google Ads",
+      "SEO",
+      "Grafikdesign",
+      "KI & Automatisierung"
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "intro": "Ihre Frage ist nicht dabei? Schreiben Sie mir einfach.",
+    "price": {
+      "q": "Was kostet eine Website?",
+      "a": "Das hängt vom Umfang ab. Die Pakete zeigen Startpreise. Einen festen Preis erhalten Sie nach dem kostenlosen Erstgespräch – vorher gibt es keine Überraschungen."
+    },
+    "timeline": {
+      "q": "Wie lange dauert ein Projekt?",
+      "a": "Das hängt vom Umfang ab und davon, wie schnell Texte und Bilder vorliegen. Den Zeitplan legen wir gemeinsam im Erstgespräch fest."
+    },
+    "hosting": {
+      "q": "Wo wird meine Website gehostet?",
+      "a": "Bei einem zuverlässigen Anbieter, den wir gemeinsam auswählen – oder bei Ihrem bestehenden Anbieter. Laufende Kosten nenne ich Ihnen vorab."
+    },
+    "changes": {
+      "q": "Kann ich nach dem Launch noch etwas ändern?",
+      "a": "Ja. Änderungen übernehme ich gerne, auf Wunsch auch regelmäßig. Wie das am besten passt, besprechen wir im Erstgespräch."
+    },
+    "language": {
+      "q": "Arbeiten Sie auch auf Englisch?",
+      "a": "Ja. Ich arbeite auf Deutsch und Englisch, und Ihre Website kann ebenfalls zweisprachig sein."
+    }
+  },
+  "contact": {
+    "title": "Projekt anfragen",
+    "intro": "Erzählen Sie mir kurz von Ihrem Unternehmen und Ihrem Vorhaben. Ich melde mich persönlich bei Ihnen.",
+    "emailCta": "E-Mail an {email}",
+    "formSoon": "Das Anfrageformular folgt in Kürze."
   }
 }

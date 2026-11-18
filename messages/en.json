@@ -70,5 +70,169 @@
     "cta": "Request a project",
     "secondary": "See packages",
     "sceneLabel": "Glossy blue building blocks assembling into a browser window, with one yellow button block."
+  },
+  "services": {
+    "title": "What I build for you",
+    "intro": "Your website comes first. Everything else makes sure it gets found and brings in enquiries.",
+    "web": {
+      "kicker": "Main focus",
+      "title": "Websites & web apps",
+      "text": "Modern, fast websites that work as well on a phone as on a laptop – and turn visitors into enquiries.",
+      "points": [
+        "Custom design, no templates",
+        "Optimised for phones",
+        "German & English",
+        "Contact and booking forms",
+        "Fast loading",
+        "Web apps & online shops on request"
+      ],
+      "cta": "Request a website project"
+    },
+    "ads": {
+      "title": "Google Ads & SEO",
+      "text": "So customers find you: Google Business Profile, search engine basics and ads that fit your budget."
+    },
+    "design": {
+      "title": "Graphic design",
+      "text": "Logo, colours, flyers and social media graphics – one look that fits together."
+    },
+    "ai": {
+      "title": "AI chatbots & automation",
+      "text": "An assistant that answers questions around the clock, and workflows that take routine work off your hands."
+    }
+  },
+  "packages": {
+    "title": "Packages",
+    "intro": "Fixed packages with a clear scope – or a custom quote for bigger projects.",
+    "recommended": "Recommended",
+    "from": "from {price}",
+    "priceTbd": "Price coming soon",
+    "choose": "Request {name}",
+    "note": "All prices are starting prices plus VAT. You get the exact price after the free first call.",
+    "start": {
+      "name": "Start",
+      "for": "For your first professional presence.",
+      "features": [
+        "One-page website",
+        "Optimised for phones",
+        "Contact form",
+        "SEO basics"
+      ]
+    },
+    "business": {
+      "name": "Business",
+      "for": "For businesses that want to be found online.",
+      "features": [
+        "Up to 6 pages",
+        "Bilingual (DE/EN)",
+        "Google Business Profile",
+        "SEO setup"
+      ]
+    },
+    "growth": {
+      "name": "Growth",
+      "for": "For more enquiries from the first month.",
+      "features": [
+        "Everything in Business",
+        "Google Ads setup + 1 month of management",
+        "AI chat assistant"
+      ]
+    },
+    "custom": {
+      "name": "Custom project",
+      "text": "Web app, online shop or automation – price on request.",
+      "cta": "Discuss your project"
+    }
+  },
+  "portfolioPreview": {
+    "title": "Work & demos",
+    "intro": "This is what your website could look like. The demo projects are invented and labelled as demos.",
+    "all": "Full portfolio",
+    "demoLabel": "Demo project"
+  },
+  "demos": {
+    "cafe": {
+      "name": "Café Hafenbohne",
+      "summary": "Warm café in Duisburg: menu, opening hours and table booking."
+    },
+    "handwerk": {
+      "name": "Müller Elektro",
+      "summary": "Electrician with emergency call button, services and quote request."
+    },
+    "export": {
+      "name": "Gaibandha Jute Co.",
+      "summary": "B2B exporter: catalogue of jute sacks, bags and charcoal, minimum order quantities, enquiry form."
+    },
+    "luxury": {
+      "name": "Maison Noir Duft",
+      "summary": "Cinematic site for a fragrance brand: 3D bottle, scroll story, collection."
+    }
+  },
+  "process": {
+    "title": "How we work together",
+    "intro": "Four clear steps – you always know what happens next.",
+    "call": {
+      "title": "Free first call",
+      "text": "We talk about your business, goals and budget. Afterwards you get a concrete quote."
+    },
+    "concept": {
+      "title": "Concept & design",
+      "text": "I plan the content and structure and show you the design before any code is written."
+    },
+    "build": {
+      "title": "Build",
+      "text": "I build the website, you review it on a preview address and give feedback."
+    },
+    "launch": {
+      "title": "Launch & ads",
+      "text": "The website goes live; your Google profile and, if you like, Google Ads are set up."
+    }
+  },
+  "about": {
+    "title": "Hi, I'm {name}.",
+    "photoAlt": "Photo of {name}",
+    "photoPlaceholder": "Placeholder for your photo",
+    "text": [
+      "I study in Duisburg and combine three things that usually take three different agencies: design, development and Google Ads.",
+      "I take on only one new project per month. That way you get my full attention – personally, in German or English."
+    ],
+    "skills": [
+      "Web design",
+      "Web development",
+      "Google Ads",
+      "SEO",
+      "Graphic design",
+      "AI & automation"
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "intro": "Your question isn't here? Just write to me.",
+    "price": {
+      "q": "How much does a website cost?",
+      "a": "It depends on the scope. The packages show starting prices. You get a fixed price after the free first call – no surprises."
+    },
+    "timeline": {
+      "q": "How long does a project take?",
+      "a": "It depends on the scope and on how quickly texts and images are ready. We set the schedule together in the first call."
+    },
+    "hosting": {
+      "q": "Where will my website be hosted?",
+      "a": "With a reliable provider we choose together – or with your existing provider. I tell you the running costs in advance."
+    },
+    "changes": {
+      "q": "Can I change things after launch?",
+      "a": "Yes. I'm happy to make changes, regularly if you like. We'll discuss what works best in the first call."
+    },
+    "language": {
+      "q": "Do you work in English too?",
+      "a": "Yes. I work in German and English, and your website can be bilingual too."
+    }
+  },
+  "contact": {
+    "title": "Request a project",
+    "intro": "Tell me briefly about your business and your plans. I'll get back to you personally.",
+    "emailCta": "Email {email}",
+    "formSoon": "The enquiry form is coming soon."
   }
 }
