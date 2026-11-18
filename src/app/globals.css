@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+/* Design tokens and fonts are added in Phase 3 (design system). */
+body {
+  background: #f3f5fa;
+  color: #10162f;
+}
