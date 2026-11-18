@@ -43,3 +43,6 @@ next-env.d.ts
 
 # netlify
 .netlify
+
+# local exports for the owner
+/deliverables
