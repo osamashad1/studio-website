@@ -78,3 +78,5 @@ AI chatbots and automation. I take 1 new project per month (limited capacity).
 - 2026-11-18: Inspired by cinematic 3D sites: cinematic dark hero only, rest of site light.
   Added a 4th demo: original luxury brand in cinematic dark style. Free tools only (no Higgsfield credits).
 - 2026-11-18: GitHub repo osamashad1/studio-website (public — never commit secrets).
+- 2026-11-18: All 10 phases built. Before launch: fill site.ts + legal placeholders, add API keys in Netlify,
+  connect domain, set launched: true. See docs/deploy.md and docs/test-report.md.

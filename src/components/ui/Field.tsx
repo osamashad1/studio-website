@@ -3,7 +3,7 @@ import { cn } from "@/lib/cn";
 export const fieldClasses = (hasError?: boolean) =>
   cn(
     "w-full rounded-sm border-2 bg-white px-4 text-base text-ink placeholder:text-slate/70",
-    "transition-colors focus:border-cobalt focus:outline-none focus-visible:outline-offset-1",
+    "transition-colors focus:border-cobalt focus-visible:outline-offset-2",
     hasError ? "border-danger" : "border-line hover:border-steel",
   );
 

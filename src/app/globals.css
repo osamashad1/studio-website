@@ -50,6 +50,8 @@
   h1, h2, h3 {
     font-family: var(--font-display);
     text-wrap: balance; /* Unbounded is wide — balance line breaks */
+    overflow-wrap: break-word; /* long German words never overflow on phones */
+    hyphens: auto;
   }
 
   p {

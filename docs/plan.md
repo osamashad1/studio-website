@@ -1,6 +1,6 @@
 # Build plan — <Studio Name> website (free stack)
 
-Status: Phases 1–3 done (plan, setup, design system). Next: Phase 4.
+Status: Phases 1–10 built and tested. Remaining: your real details, API keys, domain, legal check → docs/deploy.md.
 
 ## Phases
 
