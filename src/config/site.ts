@@ -22,6 +22,12 @@ export const site = {
   country: "DE",
   url: "https://example.com", // TODO: your domain, e.g. https://mydomain.de
 
+  /**
+   * false = site is hidden from Google (noindex). Set to true only when names, Impressum
+   * and Datenschutz are filled in and checked — a German business site needs them.
+   */
+  launched: false,
+
   availability: {
     /** Month with a free project slot, format YYYY-MM. */
     nextFreeMonth: "2026-12",

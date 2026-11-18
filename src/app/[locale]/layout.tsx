@@ -3,6 +3,7 @@ import { Instrument_Sans, Unbounded } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { site } from "@/config/site";
 import { routing } from "@/i18n/routing";
 import "../globals.css";
 
@@ -27,7 +28,12 @@ export async function generateMetadata({
 }: LayoutProps<"/[locale]">): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta" });
-  return { title: t("title"), description: t("description") };
+  return {
+    title: t("title"),
+    description: t("description"),
+    // Hidden from search engines until launch (see `launched` in src/config/site.ts)
+    robots: site.launched ? undefined : { index: false, follow: false },
+  };
 }
 
 export default async function LocaleLayout({

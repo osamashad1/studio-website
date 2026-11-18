@@ -3,11 +3,6 @@
     "title": "Studio Name — Websites that bring you customers",
     "description": "Websites, SEO and Google Ads in one package for small businesses in Duisburg and across Germany."
   },
-  "home": {
-    "title": "Websites that bring you customers.",
-    "setupNote": "Project setup and design system are ready. The real home page arrives in Phases 4 and 5.",
-    "styleguideLink": "View styleguide"
-  },
   "nav": {
     "services": "Services",
     "packages": "Packages",
@@ -67,5 +62,13 @@
     "a2": "Usually a few weeks — depending on scope and how quickly the content is ready.",
     "dark": "On dark background",
     "size64Note": "64px on tablet/desktop, 40px on phones"
+  },
+  "hero": {
+    "availability": "{count, plural, one {# project slot} other {# project slots}} free in {month}",
+    "title": "Websites that bring you customers.",
+    "subtitle": "Design, SEO and Google Ads in one package – for small businesses in Duisburg and across Germany.",
+    "cta": "Request a project",
+    "secondary": "See packages",
+    "sceneLabel": "Glossy blue building blocks assembling into a browser window, with one yellow button block."
   }
 }
