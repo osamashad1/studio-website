@@ -1,4 +1,4 @@
-# Project: <Studio Name> by <Your Name> — studio & portfolio website
+# Project: Studio OS by Osama Shad — studio & portfolio website
 
 ## What this is
 A bilingual (German default, English) website for my freelance digital studio.
@@ -80,3 +80,7 @@ AI chatbots and automation. I take 1 new project per month (limited capacity).
 - 2026-11-18: GitHub repo osamashad1/studio-website (public — never commit secrets).
 - 2026-11-18: All 10 phases built. Before launch: fill site.ts + legal placeholders, add API keys in Netlify,
   connect domain, set launched: true. See docs/deploy.md and docs/test-report.md.
+- 2026-11-18: Brand = Studio OS by Osama Shad (Duisburg; B.Sc. Mobility and Logistics, HSRW). Pricing = monthly
+  subscriptions ~10–20 % below market: Start 45 €, Business 75 €, Growth 449 € (net, 12-month minimum, no setup fee).
+  New customers: first month free + free website check. Never claim 'x % cheaper' on the site (§ 6 UWG).
+  VAT status open. Next free slot: January 2027. Go-live/SEO guide: docs/go-live-and-free-seo.md.

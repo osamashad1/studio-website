@@ -12,16 +12,27 @@ export function Packages() {
   const format = useFormatter();
   const fixed = site.packages.filter((p) => p.id !== "custom");
 
-  const price = (value: number | null) =>
-    value === null
-      ? t("priceTbd")
-      : t("from", {
-          price: format.number(value, { style: "currency", currency: "EUR", maximumFractionDigits: 0 }),
-        });
+  const eur = (value: number) =>
+    format.number(value, { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
 
   return (
     <Section id="pakete" aria-labelledby="packages-title">
       <SectionHeading id="packages-title" title={t("title")} intro={t("intro")} />
+
+      {(site.offers.firstMonthFree || site.offers.freeWebsiteCheck) && (
+        <div className="mt-10 flex flex-col gap-3 rounded-lg bg-signal p-6 text-ink sm:flex-row sm:items-center sm:justify-between sm:p-8">
+          <div>
+            <p className="font-display text-lg font-bold">{t("offer.title")}</p>
+            <ul className="mt-2 flex flex-col gap-1">
+              {site.offers.firstMonthFree && <li>✓ {t("offer.firstMonth")}</li>}
+              {site.offers.freeWebsiteCheck && <li>✓ {t("offer.check")}</li>}
+            </ul>
+          </div>
+          <ButtonLink href={contactHref} className="shrink-0 bg-ink hover:bg-cobalt">
+            {t("offer.cta")}
+          </ButtonLink>
+        </div>
+      )}
 
       <div className="mt-12 grid gap-6 lg:grid-cols-3 lg:items-stretch">
         {fixed.map((pkg) => {
@@ -45,7 +56,16 @@ export function Packages() {
                 {recommended && <Badge tone="highlight">{t("recommended")}</Badge>}
               </div>
               <p className={recommended ? "text-paper/80" : "text-slate"}>{t(`${pkg.id}.for`)}</p>
-              <p className="font-display text-2xl font-bold">{price(pkg.priceFrom)}</p>
+              <p className="flex items-baseline gap-2">
+                {pkg.pricePerMonth === null ? (
+                  <span className="font-display text-2xl font-bold">{t("onRequest")}</span>
+                ) : (
+                  <>
+                    <span className="font-display text-2xl font-bold">{eur(pkg.pricePerMonth)}</span>
+                    <span className={recommended ? "text-paper/80" : "text-slate"}>{t("perMonth")}</span>
+                  </>
+                )}
+              </p>
               <ul className="flex flex-1 flex-col gap-3">
                 {features.map((f) => (
                   <li key={f} className="flex gap-3">
@@ -77,7 +97,9 @@ export function Packages() {
           {t("custom.cta")}
         </ButtonLink>
       </div>
-      <p className="mt-6 text-sm text-slate">{t("note")}</p>
+      <p className="mt-6 max-w-[80ch] text-sm text-slate">
+        {t("note", { months: site.subscription.minTermMonths })}
+      </p>
     </Section>
   );
 }

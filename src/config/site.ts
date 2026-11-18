@@ -8,16 +8,17 @@ export type PackageId = "start" | "business" | "growth" | "custom";
 
 export type Package = {
   id: PackageId;
-  /** Starting price in euro (net). `null` = not set yet → site shows "Preis folgt". */
-  priceFrom: number | null;
+  /** Monthly subscription price in euro (net). `null` = price on request. */
+  pricePerMonth: number | null;
   recommended?: boolean;
 };
 
 export const site = {
-  studioName: "Studio Name", // TODO: your real studio name
-  ownerName: "Your Name", // TODO
-  email: "hello@example.com", // TODO: your real email
+  studioName: "Studio OS",
+  ownerName: "Osama Shad",
+  email: "osamashad97@gmail.com",
   phone: null as string | null, // optional, e.g. "+49 203 123456"
+  address: { street: "Neudorfer Straße 109", postalCode: "47057", city: "Duisburg" },
   city: "Duisburg",
   country: "DE",
   // Your domain. On Netlify the site URL is filled in automatically (URL); set
@@ -32,16 +33,31 @@ export const site = {
 
   availability: {
     /** Month with a free project slot, format YYYY-MM. */
-    nextFreeMonth: "2026-12",
+    nextFreeMonth: "2027-01",
     freeSlots: 1,
     projectsPerMonth: 1,
   },
 
+  /**
+   * Subscription terms. Prices were set ~10–20 % below typical German website-subscription
+   * and Google-Ads-management prices (research 2026-11-18). Don't claim "x % cheaper than
+   * competitors" on the site (§ 6 UWG) — just show the prices.
+   */
+  subscription: {
+    minTermMonths: 12, // then cancellable monthly
+    setupFee: 0,
+  },
+  /** Offers for first-time customers. */
+  offers: {
+    firstMonthFree: true,
+    freeWebsiteCheck: true,
+  },
+
   packages: [
-    { id: "start", priceFrom: null },
-    { id: "business", priceFrom: null, recommended: true },
-    { id: "growth", priceFrom: null },
-    { id: "custom", priceFrom: null }, // always "price on request"
+    { id: "start", pricePerMonth: 45 },
+    { id: "business", pricePerMonth: 75, recommended: true },
+    { id: "growth", pricePerMonth: 449 }, // Google Ads budget is paid separately to Google
+    { id: "custom", pricePerMonth: null }, // always "price on request"
   ] satisfies Package[],
 } as const;
 

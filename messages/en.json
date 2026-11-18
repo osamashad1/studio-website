@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Studio Name — Websites that bring you customers",
+    "title": "Studio OS — Websites that bring you customers",
     "description": "Websites, SEO and Google Ads in one package for small businesses in Duisburg and across Germany."
   },
   "nav": {
@@ -40,7 +40,7 @@
     "ctaSecondary": "See packages",
     "disabled": "Disabled",
     "badges": "Badges",
-    "badgeAvailable": "1 project slot free in December",
+    "badgeAvailable": "1 project slot free in January",
     "badgeRecommended": "Recommended",
     "badgeDemo": "Demo project",
     "forms": "Form fields",
@@ -102,21 +102,21 @@
     }
   },
   "packages": {
-    "title": "Packages",
-    "intro": "Fixed packages with a clear scope – or a custom quote for bigger projects.",
+    "title": "Monthly subscription packages",
+    "intro": "Your website at a fixed monthly price – hosting, maintenance and changes included. No setup fee.",
     "recommended": "Recommended",
-    "from": "from {price}",
-    "priceTbd": "Price coming soon",
     "choose": "Request {name}",
-    "note": "All prices are starting prices plus VAT. You get the exact price after the free first call.",
+    "note": "All prices are net per month; offers are for businesses and self-employed people. Minimum term {months} months, then cancellable monthly. No setup fee. With Growth, you pay the ad budget directly to Google.",
     "start": {
       "name": "Start",
       "for": "For your first professional presence.",
       "features": [
         "One-page website",
+        "Hosting & SSL included",
         "Optimised for phones",
         "Contact form",
-        "SEO basics"
+        "SEO basics",
+        "1 change per month"
       ]
     },
     "business": {
@@ -126,7 +126,9 @@
         "Up to 6 pages",
         "Bilingual (DE/EN)",
         "Google Business Profile",
-        "SEO setup"
+        "SEO setup",
+        "Hosting, SSL & maintenance",
+        "3 changes per month"
       ]
     },
     "growth": {
@@ -134,14 +136,24 @@
       "for": "For more enquiries from the first month.",
       "features": [
         "Everything in Business",
-        "Google Ads setup + 1 month of management",
-        "AI chat assistant"
+        "Google Ads management",
+        "AI chat assistant",
+        "Short monthly report",
+        "Ad budget paid separately to Google"
       ]
     },
     "custom": {
       "name": "Custom project",
       "text": "Web app, online shop or automation – price on request.",
       "cta": "Discuss your project"
+    },
+    "perMonth": "/ month",
+    "onRequest": "On request",
+    "offer": {
+      "title": "For new customers",
+      "firstMonth": "Your first month is free",
+      "check": "Free check of your current website and Google profile – with 3 concrete tips",
+      "cta": "Request free check"
     }
   },
   "portfolioPreview": {
@@ -193,7 +205,7 @@
     "photoAlt": "Photo of {name}",
     "photoPlaceholder": "Placeholder for your photo",
     "text": [
-      "I study in Duisburg and combine three things that usually take three different agencies: design, development and Google Ads.",
+      "I live in Duisburg and study Mobility and Logistics (B.Sc.) at Rhine-Waal University of Applied Sciences (HSRW). Alongside that, I combine three things that usually take three different agencies: design, development and Google Ads.",
       "I take on only one new project per month. That way you get my full attention – personally, in German or English."
     ],
     "skills": [
@@ -210,7 +222,7 @@
     "intro": "Your question isn't here? Just write to me.",
     "price": {
       "q": "How much does a website cost?",
-      "a": "It depends on the scope. The packages show starting prices. You get a fixed price after the free first call – no surprises."
+      "a": "Your website comes as a monthly subscription: Start €45, Business €75, Growth €449 per month (net) – hosting, maintenance and changes included, no setup fee. For new customers the first month is free. Web apps, shops and automation are quoted individually."
     },
     "timeline": {
       "q": "How long does a project take?",
@@ -218,15 +230,19 @@
     },
     "hosting": {
       "q": "Where will my website be hosted?",
-      "a": "With a reliable provider we choose together – or with your existing provider. I tell you the running costs in advance."
+      "a": "Hosting and the SSL certificate are included in the subscription. Your website runs with a reliable provider using EU servers or GDPR-compliant contracts."
     },
     "changes": {
       "q": "Can I change things after launch?",
-      "a": "Yes. I'm happy to make changes, regularly if you like. We'll discuss what works best in the first call."
+      "a": "Yes. Depending on the package, 1 to 3 changes per month are included – for example new opening hours, texts or images. We discuss bigger extensions first."
     },
     "language": {
       "q": "Do you work in English too?",
       "a": "Yes. I work in German and English, and your website can be bilingual too."
+    },
+    "term": {
+      "q": "How long am I committed?",
+      "a": "The minimum term is 12 months; after that the subscription can be cancelled monthly. For new customers the first month is free."
     }
   },
   "contact": {
@@ -720,7 +736,8 @@
         "seo": "SEO",
         "design": "Design",
         "chatbot": "AI chatbot",
-        "automation": "Automation"
+        "automation": "Automation",
+        "check": "Free website check"
       },
       "budget": {
         "lt1500": "under €1,500",
@@ -771,13 +788,13 @@
         {
           "title": "Information according to § 5 DDG",
           "text": [
-            "<FIRST NAME LAST NAME>\n<STUDIO NAME>\n<STREET AND NUMBER>\n<POSTCODE> Duisburg\nGermany"
+            "Osama Shad\nStudio OS\nNeudorfer Straße 109\n47057 Duisburg\nGermany"
           ]
         },
         {
           "title": "Contact",
           "text": [
-            "Email: <EMAIL ADDRESS>\nPhone: <PHONE NUMBER (optional, recommended)>"
+            "Email: osamashad97@gmail.com"
           ]
         },
         {
@@ -790,7 +807,7 @@
         {
           "title": "Responsible for content according to § 18 (2) MStV",
           "text": [
-            "<FIRST NAME LAST NAME>, address as above"
+            "Osama Shad, address as above"
           ]
         },
         {
@@ -810,12 +827,12 @@
     },
     "datenschutz": {
       "title": "Privacy policy",
-      "intro": "Last updated: <DATE>. This policy explains which personal data is processed when you visit this website.",
+      "intro": "Last updated: 18 November 2026. This policy explains which personal data is processed when you visit this website.",
       "sections": [
         {
           "title": "1. Controller",
           "text": [
-            "<FIRST NAME LAST NAME>, <STUDIO NAME>\n<STREET AND NUMBER>, <POSTCODE> Duisburg, Germany\nEmail: <EMAIL ADDRESS>"
+            "Osama Shad, Studio OS\nNeudorfer Straße 109, 47057 Duisburg, Germany\nEmail: osamashad97@gmail.com"
           ]
         },
         {

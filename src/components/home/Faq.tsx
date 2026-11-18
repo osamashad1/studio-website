@@ -3,7 +3,7 @@ import { Accordion } from "@/components/ui/Accordion";
 import { Section } from "@/components/ui/Section";
 import { SectionHeading } from "./SectionHeading";
 
-const keys = ["price", "timeline", "hosting", "changes", "language"] as const;
+const keys = ["price", "term", "timeline", "hosting", "changes", "language"] as const;
 
 export function Faq() {
   const t = useTranslations("faq");

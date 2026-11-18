@@ -2,7 +2,7 @@ import { z } from "zod";
 
 /** Option values (labels come from messages → "form.options"). */
 export const businessTypes = ["cafe", "craft", "shop", "service", "export", "other"] as const;
-export const needs = ["website", "webapp", "ads", "seo", "design", "chatbot", "automation"] as const;
+export const needs = ["check", "website", "webapp", "ads", "seo", "design", "chatbot", "automation"] as const;
 export const budgets = ["lt1500", "1500to3000", "3000to6000", "gt6000", "unsure"] as const;
 export const starts = ["asap", "1to3", "later", "unsure"] as const;
 

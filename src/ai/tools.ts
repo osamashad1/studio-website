@@ -14,20 +14,29 @@ export function createTools(locale: "de" | "en") {
   return {
     get_packages: tool({
       description:
-        "Get the studio's packages with what's included and the starting price in EUR (net). priceFrom null means the price is not published yet.",
+        "Get the studio's monthly subscription packages: what's included, the monthly price in EUR (net), the minimum term and the offers for first-time customers.",
       inputSchema: z.object({}),
-      execute: async () =>
-        site.packages.map((p) => {
+      execute: async () => ({
+        billing: "monthly subscription, prices net per month, no setup fee",
+        minimumTermMonths: site.subscription.minTermMonths,
+        afterMinimumTerm: "cancellable monthly",
+        offersForFirstTimeCustomers: {
+          firstMonthFree: site.offers.firstMonthFree,
+          freeWebsiteCheck: site.offers.freeWebsiteCheck,
+        },
+        googleAdsBudget: "paid separately, directly to Google (only Growth)",
+        packages: site.packages.map((p) => {
           const text = m[p.id] as { name: string; for?: string; features?: string[]; text?: string };
           return {
             id: p.id,
             name: text.name,
             forWhom: text.for ?? text.text,
             includes: text.features ?? [],
-            priceFromEUR: p.id === "custom" ? "on request" : p.priceFrom,
+            pricePerMonthEUR: p.pricePerMonth ?? "on request",
             recommended: "recommended" in p ? p.recommended : false,
           };
         }),
+      }),
     }),
 
     get_availability: tool({
