@@ -234,5 +234,447 @@
     "intro": "Tell me briefly about your business and your plans. I'll get back to you personally.",
     "emailCta": "Email {email}",
     "formSoon": "The enquiry form is coming soon."
+  },
+  "demoBanner": {
+    "text": "Demo by {studio} — this is what your website could look like.",
+    "back": "Back to the studio website"
+  },
+  "demoCafe": {
+    "metaTitle": "Café Hafenbohne – Demo",
+    "navLabel": "Café navigation",
+    "nav": {
+      "menu": "Menu",
+      "hours": "Hours",
+      "reserve": "Book"
+    },
+    "hero": {
+      "kicker": "Specialty coffee at Duisburg's inner harbour",
+      "title": "Coffee with a harbour view.",
+      "text": "Freshly roasted coffee, homemade cake and a seat by the window – right in the inner harbour.",
+      "cta": "Book a table",
+      "secondary": "See the menu"
+    },
+    "menu": {
+      "title": "Our menu",
+      "text": "Everything fresh, much of it homemade. Vegan options on request.",
+      "groups": [
+        {
+          "title": "Coffee",
+          "items": [
+            {
+              "name": "Espresso",
+              "desc": "House roast, chocolatey",
+              "price": "€2.40"
+            },
+            {
+              "name": "Flat white",
+              "desc": "Double espresso, microfoam",
+              "price": "€3.90"
+            },
+            {
+              "name": "Filter coffee",
+              "desc": "Bean of the week",
+              "price": "€3.20"
+            }
+          ]
+        },
+        {
+          "title": "Breakfast",
+          "items": [
+            {
+              "name": "Harbour breakfast",
+              "desc": "Bread, cheese, egg, jam",
+              "price": "€11.50"
+            },
+            {
+              "name": "Porridge",
+              "desc": "Oats, berries, nuts",
+              "price": "€7.90"
+            },
+            {
+              "name": "Avocado toast",
+              "desc": "Sourdough, chilli, lime",
+              "price": "€9.40"
+            }
+          ]
+        },
+        {
+          "title": "Cake",
+          "items": [
+            {
+              "name": "Cheesecake",
+              "desc": "Grandma's recipe",
+              "price": "€4.20"
+            },
+            {
+              "name": "Cinnamon roll",
+              "desc": "Warm from 10 am",
+              "price": "€3.60"
+            },
+            {
+              "name": "Tart of the day",
+              "desc": "Ask at the counter",
+              "price": "€4.50"
+            }
+          ]
+        }
+      ]
+    },
+    "hours": {
+      "title": "Opening hours",
+      "rows": [
+        {
+          "day": "Monday – Friday",
+          "time": "8:00 – 18:00"
+        },
+        {
+          "day": "Saturday",
+          "time": "9:00 – 18:00"
+        },
+        {
+          "day": "Sunday & holidays",
+          "time": "10:00 – 17:00"
+        }
+      ]
+    },
+    "map": {
+      "title": "How to find us",
+      "label": "Map placeholder: café location at the inner harbour",
+      "address": "Example Street 1, 47051 Duisburg (demo address)"
+    },
+    "form": {
+      "title": "Book a table",
+      "text": "For groups of 7 or more, please give us a call.",
+      "name": "Name",
+      "phone": "Phone",
+      "date": "Date",
+      "time": "Time",
+      "guests": "Guests",
+      "note": "Note (optional)",
+      "submit": "Send booking",
+      "success": "Thank you! Your booking request has arrived. (Demo)",
+      "error": "Please fill this in (with a valid value).",
+      "demoNote": "Demo: no data is sent."
+    },
+    "footer": "© Café Hafenbohne – invented demo project."
+  },
+  "demoHandwerk": {
+    "metaTitle": "Müller Elektro – Demo",
+    "emergency": {
+      "text": "Power cut? 24-hour emergency service in Duisburg and the area.",
+      "call": "Call emergency line",
+      "short": "Emergency"
+    },
+    "hero": {
+      "kicker": "Master electricians in Duisburg",
+      "title": "Power that simply works.",
+      "text": "From sockets to wall boxes: we plan, install and test – tidy, on time and with a fixed quote up front.",
+      "cta": "Request a quote"
+    },
+    "trust": [
+      "Master craftsman business",
+      "Fixed quote before we start",
+      "Tidy work site",
+      "Emergency service around the clock"
+    ],
+    "services": {
+      "title": "Our services",
+      "items": [
+        {
+          "title": "Electrical installation",
+          "text": "New builds, renovations and extensions – to standard."
+        },
+        {
+          "title": "Wall box & e-mobility",
+          "text": "Advice, grid registration and installation."
+        },
+        {
+          "title": "Solar power",
+          "text": "Connection and storage for your solar system."
+        },
+        {
+          "title": "Smart home",
+          "text": "Lights, heating and blinds from an app."
+        },
+        {
+          "title": "Safety check",
+          "text": "Safety inspection for homes, offices and businesses."
+        },
+        {
+          "title": "Fault service",
+          "text": "Fast help with outages – weekends too."
+        }
+      ]
+    },
+    "steps": {
+      "title": "How it works",
+      "items": [
+        "Send a request or call",
+        "On-site visit & fixed quote",
+        "Clean work & test report"
+      ]
+    },
+    "form": {
+      "title": "Request a quote",
+      "text": "Briefly describe your project – we'll get back to you with a suggested date.",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email (optional)",
+      "service": "Service",
+      "message": "Your project",
+      "submit": "Send request",
+      "success": "Thank you! Your request has arrived. (Demo)",
+      "error": "Please fill this in (with a valid value).",
+      "demoNote": "Demo: no data is sent."
+    },
+    "footer": "© Müller Elektro – invented demo project. The phone number is not real."
+  },
+  "demoExport": {
+    "metaTitle": "Gaibandha Jute Co. – Demo",
+    "navLabel": "Navigation",
+    "nav": {
+      "products": "Products",
+      "enquiry": "Enquiry"
+    },
+    "hero": {
+      "kicker": "Jute from Bangladesh for buyers worldwide",
+      "title": "Natural jute, shipped worldwide.",
+      "text": "Jute sacks, jute bags and jute-stick charcoal – direct from the manufacturer, with samples before you order.",
+      "cta": "Send an enquiry"
+    },
+    "facts": [
+      {
+        "label": "Product lines",
+        "value": "3"
+      },
+      {
+        "label": "Incoterms",
+        "value": "FOB / CIF"
+      },
+      {
+        "label": "Samples",
+        "value": "On request"
+      },
+      {
+        "label": "Custom print",
+        "value": "Available"
+      }
+    ],
+    "products": {
+      "title": "Product catalogue",
+      "text": "All figures are example values for this demo.",
+      "items": [
+        {
+          "name": "Jute sacks",
+          "text": "Sturdy sacks for coffee, cocoa, grain and potatoes.",
+          "specs": [
+            {
+              "label": "Sizes",
+              "value": "50 / 60 / 100 kg"
+            },
+            {
+              "label": "MOQ",
+              "value": "5,000 pcs (example)"
+            },
+            {
+              "label": "Print",
+              "value": "1–2 colours"
+            }
+          ]
+        },
+        {
+          "name": "Jute bags",
+          "text": "Shopping and promotional bags, also with your logo.",
+          "specs": [
+            {
+              "label": "Sizes",
+              "value": "S / M / L"
+            },
+            {
+              "label": "MOQ",
+              "value": "1,000 pcs (example)"
+            },
+            {
+              "label": "Handles",
+              "value": "Jute or cotton"
+            }
+          ]
+        },
+        {
+          "name": "Jute-stick charcoal",
+          "text": "Activated-carbon raw material made from jute sticks, e.g. for industry and cosmetics.",
+          "specs": [
+            {
+              "label": "Packing",
+              "value": "25 kg bags"
+            },
+            {
+              "label": "MOQ",
+              "value": "1 container (example)"
+            },
+            {
+              "label": "Moisture",
+              "value": "On request"
+            }
+          ]
+        }
+      ]
+    },
+    "why": {
+      "title": "Why Gaibandha Jute",
+      "items": [
+        {
+          "title": "Samples before you order",
+          "text": "Check quality and finish before placing an order."
+        },
+        {
+          "title": "Custom printing",
+          "text": "Logo, colours and sizes to your specification."
+        },
+        {
+          "title": "Clear shipping terms",
+          "text": "FOB or CIF – with complete export documents."
+        }
+      ]
+    },
+    "form": {
+      "title": "Send an enquiry",
+      "text": "Tell us product and quantity – you'll get a quote with lead time.",
+      "company": "Company",
+      "country": "Country",
+      "email": "Email",
+      "product": "Product",
+      "quantity": "Quantity",
+      "message": "Message (optional)",
+      "submit": "Send enquiry",
+      "success": "Thank you! Your enquiry has arrived. (Demo)",
+      "error": "Please fill this in (with a valid value).",
+      "demoNote": "Demo: no data is sent."
+    },
+    "footer": "© Gaibandha Jute Co. – invented demo project."
+  },
+  "demoLuxury": {
+    "metaTitle": "Maison Noir Duft – Demo",
+    "navLabel": "Navigation",
+    "nav": {
+      "collection": "Collection",
+      "contact": "Contact"
+    },
+    "bottleLabel": "Glass bottle with a gold cap and amber fragrance",
+    "hero": {
+      "kicker": "EAU DE PARFUM",
+      "title1": "Light",
+      "title2": "that lingers.",
+      "text": "A scent of amber, fig and warm wood – for evenings you remember.",
+      "cta": "DISCOVER THE COLLECTION"
+    },
+    "story": [
+      {
+        "kicker": "I · THE INGREDIENTS",
+        "title": "What nature gives.",
+        "text": "Ripe fig, bergamot and a breath of iris. Chosen in small batches, harvested at the right moment."
+      },
+      {
+        "kicker": "II · THE CRAFT",
+        "title": "Time as an ingredient.",
+        "text": "Each composition rests for weeks before it is bottled. Only then do the notes become one."
+      },
+      {
+        "kicker": "III · THE BOTTLE",
+        "title": "Weight in your hand.",
+        "text": "Heavy glass, a golden cap – made to stay on the table long after the scent has faded."
+      }
+    ],
+    "collection": {
+      "title": "The collection",
+      "items": [
+        {
+          "name": "Ambre Nuit",
+          "notes": "AMBER · FIG · CEDAR",
+          "text": "Warm and deep – the scent of this page."
+        },
+        {
+          "name": "Iris Pâle",
+          "notes": "IRIS · BERGAMOT · MUSK",
+          "text": "Bright, powdery, calm."
+        },
+        {
+          "name": "Fumée",
+          "notes": "INCENSE · LEATHER · VETIVER",
+          "text": "Smoky, dark, unforgettable."
+        }
+      ]
+    },
+    "form": {
+      "title": "Contact",
+      "text": "Sample set, wholesale or a private event – we look forward to your message.",
+      "name": "Name",
+      "email": "Email",
+      "interest": "Your request",
+      "options": [
+        "Sample set",
+        "Wholesale",
+        "Private event"
+      ],
+      "message": "Message (optional)",
+      "submit": "SEND",
+      "success": "Merci. Your message has arrived. (Demo)",
+      "error": "Please fill this in (with a valid value).",
+      "demoNote": "Demo: no data is sent."
+    },
+    "footer": "© Maison Noir Duft – invented brand, demo project."
+  },
+  "portfolioPage": {
+    "metaTitle": "Portfolio",
+    "title": "Portfolio",
+    "intro": "Websites, design and Google Ads. The demo projects show what your website could look like – real client projects are coming.",
+    "filterLabel": "Filter by category",
+    "filters": {
+      "all": "All",
+      "websites": "Websites",
+      "design": "Design",
+      "ads": "Google Ads"
+    },
+    "count": "{count, plural, one {# project} other {# projects}} shown",
+    "empty": "There is no published work in this category yet. Real projects are coming soon.",
+    "demoLabel": "Demo project",
+    "blocks": {
+      "problem": "Starting point",
+      "solution": "Solution",
+      "goal": "Goal"
+    },
+    "demoNote": "This is an invented demo project. It shows goals, not real results.",
+    "openDemo": "Open demo website",
+    "cta": "Request a similar project"
+  },
+  "cases": {
+    "cafe": {
+      "title": "Café Hafenbohne",
+      "summary": "Website for a café: menu, opening hours and table booking.",
+      "problem": "Guests only find opening hours and the menu on social media; bookings come in by phone only.",
+      "solution": "A warm one-page website with menu, opening hours, directions and a booking form – optimised for phones.",
+      "goal": "More bookings online, fewer calls at peak times and better visibility on Google Maps."
+    },
+    "handwerk": {
+      "title": "Müller Elektro",
+      "summary": "Trust-focused website for an electrician with an emergency service.",
+      "problem": "The old website looks outdated, and the emergency number is hard to find on a phone.",
+      "solution": "A clear structure, an always-visible emergency button, services at a glance and a simple quote request.",
+      "goal": "More qualified enquiries from Duisburg and the area, and faster contact in an emergency."
+    },
+    "export": {
+      "title": "Gaibandha Jute Co.",
+      "summary": "B2B website for a jute exporter, English first.",
+      "problem": "International buyers can't find product data, minimum order quantities or shipping terms.",
+      "solution": "A product catalogue with specifications, MOQs and Incoterms, plus a structured enquiry form.",
+      "goal": "Better enquiries from wholesalers worldwide – with everything needed for a fast quote."
+    },
+    "luxury": {
+      "title": "Maison Noir Duft",
+      "summary": "Cinematic brand website with a 3D bottle and a scroll story.",
+      "problem": "A new fragrance brand needs a presence that feels premium and stays in people's minds.",
+      "solution": "A dark, elegant site with a real 3D bottle that turns as you scroll, and a story in three chapters.",
+      "goal": "A brand people talk about – and more requests for sample sets and wholesale."
+    }
   }
 }

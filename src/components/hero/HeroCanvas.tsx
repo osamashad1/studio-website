@@ -3,20 +3,11 @@
 import dynamic from "next/dynamic";
 import { useEffect, useRef, useState } from "react";
 import { cn } from "@/lib/cn";
+import { canUse3D } from "@/lib/webgl";
 import { HeroFallback } from "./HeroFallback";
 
 // The 3D code (three.js) loads only in the browser, after the page is visible.
 const HeroScene = dynamic(() => import("./HeroScene"), { ssr: false });
-
-function canUse3D() {
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return false;
-  try {
-    const c = document.createElement("canvas");
-    return !!(c.getContext("webgl2") || c.getContext("webgl"));
-  } catch {
-    return false;
-  }
-}
 
 export function HeroCanvas({ label }: { label: string }) {
   const box = useRef<HTMLDivElement>(null);

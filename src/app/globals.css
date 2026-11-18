@@ -34,35 +34,37 @@
   --radius-lg: 20px;
 }
 
-/* ── Base ──────────────────────────────────────────────────────── */
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 88px; /* sticky header height, so anchors are not hidden */
-}
+/* ── Base (in @layer base, so page-level utilities like a demo's own font can override) ── */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 88px; /* sticky header height, so anchors are not hidden */
+  }
 
-body {
-  background: var(--color-paper);
-  color: var(--color-ink);
-  font-family: var(--font-sans);
-}
+  body {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
 
-h1, h2, h3 {
-  font-family: var(--font-display);
-  text-wrap: balance; /* Unbounded is wide — balance line breaks */
-}
+  h1, h2, h3 {
+    font-family: var(--font-display);
+    text-wrap: balance; /* Unbounded is wide — balance line breaks */
+  }
 
-p {
-  text-wrap: pretty;
-}
+  p {
+    text-wrap: pretty;
+  }
 
-/* Visible keyboard focus everywhere */
-:focus-visible {
-  outline: 3px solid var(--color-cobalt);
-  outline-offset: 3px;
-  border-radius: 4px;
-}
-.on-dark :focus-visible {
-  outline-color: var(--color-signal);
+  /* Visible keyboard focus everywhere */
+  :focus-visible {
+    outline: 3px solid var(--color-cobalt);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  .on-dark :focus-visible {
+    outline-color: var(--color-signal);
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

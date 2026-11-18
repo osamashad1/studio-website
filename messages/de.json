@@ -234,5 +234,447 @@
     "intro": "Erzählen Sie mir kurz von Ihrem Unternehmen und Ihrem Vorhaben. Ich melde mich persönlich bei Ihnen.",
     "emailCta": "E-Mail an {email}",
     "formSoon": "Das Anfrageformular folgt in Kürze."
+  },
+  "demoBanner": {
+    "text": "Demo von {studio} — so könnte Ihre Website aussehen.",
+    "back": "Zurück zur Studio-Website"
+  },
+  "demoCafe": {
+    "metaTitle": "Café Hafenbohne – Demo",
+    "navLabel": "Navigation Café",
+    "nav": {
+      "menu": "Karte",
+      "hours": "Zeiten",
+      "reserve": "Reservieren"
+    },
+    "hero": {
+      "kicker": "Specialty Coffee am Duisburger Innenhafen",
+      "title": "Kaffee mit Hafenblick.",
+      "text": "Frisch gerösteter Kaffee, hausgemachter Kuchen und ein Platz am Fenster – mitten im Innenhafen.",
+      "cta": "Tisch reservieren",
+      "secondary": "Zur Karte"
+    },
+    "menu": {
+      "title": "Unsere Karte",
+      "text": "Alles frisch, vieles hausgemacht. Vegane Varianten auf Nachfrage.",
+      "groups": [
+        {
+          "title": "Kaffee",
+          "items": [
+            {
+              "name": "Espresso",
+              "desc": "Hausröstung, schokoladig",
+              "price": "2,40 €"
+            },
+            {
+              "name": "Flat White",
+              "desc": "Doppelter Espresso, Milchschaum",
+              "price": "3,90 €"
+            },
+            {
+              "name": "Filterkaffee",
+              "desc": "Wechselnde Bohne der Woche",
+              "price": "3,20 €"
+            }
+          ]
+        },
+        {
+          "title": "Frühstück",
+          "items": [
+            {
+              "name": "Hafenfrühstück",
+              "desc": "Brot, Käse, Ei, Marmelade",
+              "price": "11,50 €"
+            },
+            {
+              "name": "Porridge",
+              "desc": "Hafer, Beeren, Nüsse",
+              "price": "7,90 €"
+            },
+            {
+              "name": "Avocado-Brot",
+              "desc": "Sauerteig, Chili, Limette",
+              "price": "9,40 €"
+            }
+          ]
+        },
+        {
+          "title": "Kuchen",
+          "items": [
+            {
+              "name": "Käsekuchen",
+              "desc": "Nach Omas Rezept",
+              "price": "4,20 €"
+            },
+            {
+              "name": "Zimtschnecke",
+              "desc": "Ofenwarm ab 10 Uhr",
+              "price": "3,60 €"
+            },
+            {
+              "name": "Tarte des Tages",
+              "desc": "Fragen Sie an der Theke",
+              "price": "4,50 €"
+            }
+          ]
+        }
+      ]
+    },
+    "hours": {
+      "title": "Öffnungszeiten",
+      "rows": [
+        {
+          "day": "Montag – Freitag",
+          "time": "8:00 – 18:00"
+        },
+        {
+          "day": "Samstag",
+          "time": "9:00 – 18:00"
+        },
+        {
+          "day": "Sonntag & Feiertage",
+          "time": "10:00 – 17:00"
+        }
+      ]
+    },
+    "map": {
+      "title": "So finden Sie uns",
+      "label": "Kartenplatzhalter: Lage des Cafés am Innenhafen",
+      "address": "Beispielstraße 1, 47051 Duisburg (Demo-Adresse)"
+    },
+    "form": {
+      "title": "Tisch reservieren",
+      "text": "Für Gruppen ab 7 Personen rufen Sie uns bitte an.",
+      "name": "Name",
+      "phone": "Telefon",
+      "date": "Datum",
+      "time": "Uhrzeit",
+      "guests": "Personen",
+      "note": "Anmerkung (optional)",
+      "submit": "Reservierung senden",
+      "success": "Danke! Ihre Reservierungsanfrage ist angekommen. (Demo)",
+      "error": "Bitte ausfüllen (bzw. gültige Angabe machen).",
+      "demoNote": "Demo: Es werden keine Daten gesendet."
+    },
+    "footer": "© Café Hafenbohne – frei erfundenes Demo-Projekt."
+  },
+  "demoHandwerk": {
+    "metaTitle": "Müller Elektro – Demo",
+    "emergency": {
+      "text": "Stromausfall? 24-Stunden-Notdienst in Duisburg und Umgebung.",
+      "call": "Notdienst anrufen",
+      "short": "Notdienst"
+    },
+    "hero": {
+      "kicker": "Elektro-Meisterbetrieb in Duisburg",
+      "title": "Strom, der einfach funktioniert.",
+      "text": "Von der Steckdose bis zur Wallbox: Wir planen, installieren und prüfen – sauber, termintreu und mit festem Angebot vorab.",
+      "cta": "Angebot anfragen"
+    },
+    "trust": [
+      "Meisterbetrieb",
+      "Festes Angebot vor Arbeitsbeginn",
+      "Saubere Baustelle",
+      "Notdienst rund um die Uhr"
+    ],
+    "services": {
+      "title": "Unsere Leistungen",
+      "items": [
+        {
+          "title": "Elektroinstallation",
+          "text": "Neubau, Sanierung und Erweiterung – fachgerecht nach Norm."
+        },
+        {
+          "title": "Wallbox & E-Mobilität",
+          "text": "Beratung, Anmeldung beim Netzbetreiber und Montage."
+        },
+        {
+          "title": "Photovoltaik",
+          "text": "Anschluss und Speicher für Ihre Solaranlage."
+        },
+        {
+          "title": "Smart Home",
+          "text": "Licht, Heizung und Rollläden bequem per App."
+        },
+        {
+          "title": "E-Check",
+          "text": "Sicherheitsprüfung für Wohnung, Büro und Gewerbe."
+        },
+        {
+          "title": "Störungsdienst",
+          "text": "Schnelle Hilfe bei Ausfällen – auch am Wochenende."
+        }
+      ]
+    },
+    "steps": {
+      "title": "So einfach geht's",
+      "items": [
+        "Anfrage senden oder anrufen",
+        "Termin vor Ort & festes Angebot",
+        "Saubere Ausführung & Prüfprotokoll"
+      ]
+    },
+    "form": {
+      "title": "Angebot anfragen",
+      "text": "Beschreiben Sie kurz Ihr Vorhaben – wir melden uns mit einem Terminvorschlag.",
+      "name": "Name",
+      "phone": "Telefon",
+      "email": "E-Mail (optional)",
+      "service": "Leistung",
+      "message": "Ihr Vorhaben",
+      "submit": "Anfrage senden",
+      "success": "Danke! Ihre Anfrage ist eingegangen. (Demo)",
+      "error": "Bitte ausfüllen (bzw. gültige Angabe machen).",
+      "demoNote": "Demo: Es werden keine Daten gesendet."
+    },
+    "footer": "© Müller Elektro – frei erfundenes Demo-Projekt. Die Telefonnummer ist nicht echt."
+  },
+  "demoExport": {
+    "metaTitle": "Gaibandha Jute Co. – Demo",
+    "navLabel": "Navigation",
+    "nav": {
+      "products": "Produkte",
+      "enquiry": "Anfrage"
+    },
+    "hero": {
+      "kicker": "Jute aus Bangladesch für Käufer weltweit",
+      "title": "Natürliche Jute, weltweit geliefert.",
+      "text": "Jutesäcke, Jutetaschen und Holzkohle aus Jutestängeln – direkt vom Hersteller, mit Musterversand vor der Bestellung.",
+      "cta": "Anfrage senden"
+    },
+    "facts": [
+      {
+        "label": "Produktkategorien",
+        "value": "3"
+      },
+      {
+        "label": "Lieferbedingungen",
+        "value": "FOB / CIF"
+      },
+      {
+        "label": "Muster",
+        "value": "Auf Anfrage"
+      },
+      {
+        "label": "Eigener Druck",
+        "value": "Möglich"
+      }
+    ],
+    "products": {
+      "title": "Produktkatalog",
+      "text": "Alle Angaben sind Beispielwerte für diese Demo.",
+      "items": [
+        {
+          "name": "Jutesäcke",
+          "text": "Robuste Säcke für Kaffee, Kakao, Getreide und Kartoffeln.",
+          "specs": [
+            {
+              "label": "Größen",
+              "value": "50 / 60 / 100 kg"
+            },
+            {
+              "label": "Mindestmenge",
+              "value": "5.000 Stk. (Beispiel)"
+            },
+            {
+              "label": "Druck",
+              "value": "1–2 Farben"
+            }
+          ]
+        },
+        {
+          "name": "Jutetaschen",
+          "text": "Einkaufs- und Werbetaschen, auch mit Ihrem Logo.",
+          "specs": [
+            {
+              "label": "Größen",
+              "value": "S / M / L"
+            },
+            {
+              "label": "Mindestmenge",
+              "value": "1.000 Stk. (Beispiel)"
+            },
+            {
+              "label": "Griffe",
+              "value": "Jute oder Baumwolle"
+            }
+          ]
+        },
+        {
+          "name": "Holzkohle aus Jutestängeln",
+          "text": "Aktivkohle-Rohstoff aus Jutestängeln, z. B. für Industrie und Kosmetik.",
+          "specs": [
+            {
+              "label": "Verpackung",
+              "value": "25-kg-Säcke"
+            },
+            {
+              "label": "Mindestmenge",
+              "value": "1 Container (Beispiel)"
+            },
+            {
+              "label": "Feuchte",
+              "value": "Auf Anfrage"
+            }
+          ]
+        }
+      ]
+    },
+    "why": {
+      "title": "Warum Gaibandha Jute",
+      "items": [
+        {
+          "title": "Muster vor Bestellung",
+          "text": "Prüfen Sie Qualität und Verarbeitung, bevor Sie bestellen."
+        },
+        {
+          "title": "Individueller Druck",
+          "text": "Logo, Farben und Maße nach Ihren Wünschen."
+        },
+        {
+          "title": "Klare Lieferbedingungen",
+          "text": "FOB oder CIF – mit vollständigen Exportdokumenten."
+        }
+      ]
+    },
+    "form": {
+      "title": "Anfrage senden",
+      "text": "Nennen Sie Produkt und Menge – Sie erhalten ein Angebot mit Lieferzeit.",
+      "company": "Firma",
+      "country": "Land",
+      "email": "E-Mail",
+      "product": "Produkt",
+      "quantity": "Menge",
+      "message": "Nachricht (optional)",
+      "submit": "Anfrage senden",
+      "success": "Danke! Ihre Anfrage ist eingegangen. (Demo)",
+      "error": "Bitte ausfüllen (bzw. gültige Angabe machen).",
+      "demoNote": "Demo: Es werden keine Daten gesendet."
+    },
+    "footer": "© Gaibandha Jute Co. – frei erfundenes Demo-Projekt."
+  },
+  "demoLuxury": {
+    "metaTitle": "Maison Noir Duft – Demo",
+    "navLabel": "Navigation",
+    "nav": {
+      "collection": "Kollektion",
+      "contact": "Kontakt"
+    },
+    "bottleLabel": "Gläserner Flakon mit goldenem Verschluss und bernsteinfarbenem Duft",
+    "hero": {
+      "kicker": "EAU DE PARFUM",
+      "title1": "Licht,",
+      "title2": "das bleibt.",
+      "text": "Ein Duft aus Bernstein, Feige und warmem Holz – für Abende, an die man sich erinnert.",
+      "cta": "KOLLEKTION ENTDECKEN"
+    },
+    "story": [
+      {
+        "kicker": "I · DIE ZUTATEN",
+        "title": "Was die Natur schenkt.",
+        "text": "Reife Feige, Bergamotte und ein Hauch Iris. Ausgewählt in kleinen Mengen, zur richtigen Zeit geerntet."
+      },
+      {
+        "kicker": "II · DAS HANDWERK",
+        "title": "Zeit als Zutat.",
+        "text": "Jede Komposition reift Wochen, bevor sie abgefüllt wird. Erst dann verbinden sich die Noten zu einem Ganzen."
+      },
+      {
+        "kicker": "III · DER FLAKON",
+        "title": "Gewicht in der Hand.",
+        "text": "Schweres Glas, ein goldener Verschluss – gemacht, um auf dem Tisch zu bleiben, auch wenn der Duft verflogen ist."
+      }
+    ],
+    "collection": {
+      "title": "Die Kollektion",
+      "items": [
+        {
+          "name": "Ambre Nuit",
+          "notes": "BERNSTEIN · FEIGE · ZEDER",
+          "text": "Warm und tief – der Duft aus dieser Seite."
+        },
+        {
+          "name": "Iris Pâle",
+          "notes": "IRIS · BERGAMOTTE · MOSCHUS",
+          "text": "Hell, pudrig, ruhig."
+        },
+        {
+          "name": "Fumée",
+          "notes": "WEIHRAUCH · LEDER · VETIVER",
+          "text": "Rauchig, dunkel, unvergesslich."
+        }
+      ]
+    },
+    "form": {
+      "title": "Kontakt",
+      "text": "Probenset, Großhandel oder privates Event – wir freuen uns auf Ihre Nachricht.",
+      "name": "Name",
+      "email": "E-Mail",
+      "interest": "Ihr Anliegen",
+      "options": [
+        "Probenset",
+        "Großhandel",
+        "Privates Event"
+      ],
+      "message": "Nachricht (optional)",
+      "submit": "SENDEN",
+      "success": "Merci. Ihre Nachricht ist angekommen. (Demo)",
+      "error": "Bitte ausfüllen (bzw. gültige Angabe machen).",
+      "demoNote": "Demo: Es werden keine Daten gesendet."
+    },
+    "footer": "© Maison Noir Duft – frei erfundene Marke, Demo-Projekt."
+  },
+  "portfolioPage": {
+    "metaTitle": "Portfolio",
+    "title": "Portfolio",
+    "intro": "Websites, Design und Google Ads. Die Demo-Projekte zeigen, wie Ihre Website aussehen könnte – echte Kundenprojekte folgen.",
+    "filterLabel": "Nach Kategorie filtern",
+    "filters": {
+      "all": "Alle",
+      "websites": "Websites",
+      "design": "Design",
+      "ads": "Google Ads"
+    },
+    "count": "{count, plural, one {# Projekt} other {# Projekte}} angezeigt",
+    "empty": "In dieser Kategorie gibt es noch keine veröffentlichten Arbeiten. Echte Projekte folgen bald.",
+    "demoLabel": "Demo-Projekt",
+    "blocks": {
+      "problem": "Ausgangslage",
+      "solution": "Lösung",
+      "goal": "Ziel"
+    },
+    "demoNote": "Dies ist ein frei erfundenes Demo-Projekt. Es zeigt Ziele, keine echten Ergebnisse.",
+    "openDemo": "Demo-Website öffnen",
+    "cta": "Ähnliches Projekt anfragen"
+  },
+  "cases": {
+    "cafe": {
+      "title": "Café Hafenbohne",
+      "summary": "Website für ein Café: Speisekarte, Öffnungszeiten und Tischreservierung.",
+      "problem": "Gäste finden Öffnungszeiten und Karte nur auf Social Media; Reservierungen kommen ausschließlich per Telefon.",
+      "solution": "Eine warme One-Page-Website mit Karte, Öffnungszeiten, Anfahrt und einem Reservierungsformular – optimiert fürs Handy.",
+      "goal": "Mehr Reservierungen online, weniger Anrufe zu Stoßzeiten und bessere Sichtbarkeit bei Google Maps."
+    },
+    "handwerk": {
+      "title": "Müller Elektro",
+      "summary": "Vertrauensstarke Website für einen Elektrobetrieb mit Notdienst.",
+      "problem": "Die alte Website wirkt veraltet, die Notdienst-Nummer ist auf dem Handy schwer zu finden.",
+      "solution": "Klare Struktur, ein immer sichtbarer Notdienst-Button, Leistungen auf einen Blick und eine einfache Angebotsanfrage.",
+      "goal": "Mehr qualifizierte Anfragen aus Duisburg und Umgebung und schnellerer Kontakt im Notfall."
+    },
+    "export": {
+      "title": "Gaibandha Jute Co.",
+      "summary": "B2B-Website für einen Jute-Exporteur, Englisch zuerst.",
+      "problem": "Internationale Einkäufer finden keine Produktdaten, Mindestmengen oder Lieferbedingungen.",
+      "solution": "Ein Produktkatalog mit Spezifikationen, Mindestmengen und Incoterms sowie ein strukturiertes Anfrageformular.",
+      "goal": "Bessere Anfragen von Großhändlern weltweit – mit allen Angaben für ein schnelles Angebot."
+    },
+    "luxury": {
+      "title": "Maison Noir Duft",
+      "summary": "Kinoreife Markenwebsite mit 3D-Flakon und Scroll-Story.",
+      "problem": "Eine neue Duftmarke braucht einen Auftritt, der sich hochwertig anfühlt und im Gedächtnis bleibt.",
+      "solution": "Ein dunkler, eleganter Auftritt mit einem echten 3D-Flakon, der sich beim Scrollen dreht, und einer Story in drei Kapiteln.",
+      "goal": "Eine Marke, über die man spricht – und mehr Anfragen für Probensets und Großhandel."
+    }
   }
 }
