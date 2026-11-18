@@ -232,8 +232,7 @@
   "contact": {
     "title": "Projekt anfragen",
     "intro": "Erzählen Sie mir kurz von Ihrem Unternehmen und Ihrem Vorhaben. Ich melde mich persönlich bei Ihnen.",
-    "emailCta": "E-Mail an {email}",
-    "formSoon": "Das Anfrageformular folgt in Kürze."
+    "direct": "Lieber direkt per E-Mail?"
   },
   "demoBanner": {
     "text": "Demo von {studio} — so könnte Ihre Website aussehen.",
@@ -675,6 +674,67 @@
       "problem": "Eine neue Duftmarke braucht einen Auftritt, der sich hochwertig anfühlt und im Gedächtnis bleibt.",
       "solution": "Ein dunkler, eleganter Auftritt mit einem echten 3D-Flakon, der sich beim Scrollen dreht, und einer Story in drei Kapiteln.",
       "goal": "Eine Marke, über die man spricht – und mehr Anfragen für Probensets und Großhandel."
+    }
+  },
+  "form": {
+    "name": "Name",
+    "email": "E-Mail",
+    "business": "Art des Unternehmens",
+    "budget": "Budget",
+    "needs": "Was brauchen Sie?",
+    "start": "Gewünschter Start",
+    "message": "Ihre Nachricht",
+    "messageHint": "Was macht Ihr Unternehmen, und was soll die Website erreichen?",
+    "choose": "Bitte wählen",
+    "privacy": "Ich habe die <link>Datenschutzerklärung</link> gelesen und bin einverstanden, dass meine Angaben zur Bearbeitung der Anfrage verwendet werden.",
+    "submit": "Anfrage senden",
+    "sending": "Wird gesendet …",
+    "success": {
+      "title": "Danke! Ich melde mich innerhalb von 24 Stunden.",
+      "text": "Ihre Anfrage ist angekommen. Sie erhalten meine Antwort an die angegebene E-Mail-Adresse."
+    },
+    "error": "Das hat leider nicht geklappt. Bitte schreiben Sie mir direkt an {email}.",
+    "rateLimited": "Sie haben gerade mehrere Anfragen gesendet. Bitte versuchen Sie es in ein paar Minuten erneut oder schreiben Sie direkt an {email}.",
+    "errors": {
+      "required": "Bitte wählen Sie eine Option.",
+      "name": "Bitte geben Sie Ihren Namen ein.",
+      "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "needs": "Bitte wählen Sie mindestens eine Leistung.",
+      "messageShort": "Bitte schreiben Sie mindestens 20 Zeichen.",
+      "tooLong": "Dieser Text ist zu lang.",
+      "privacy": "Bitte bestätigen Sie die Datenschutzerklärung."
+    },
+    "options": {
+      "business": {
+        "cafe": "Café / Restaurant",
+        "craft": "Handwerk",
+        "shop": "Laden / Einzelhandel",
+        "service": "Lokale Dienstleistung",
+        "export": "Export / B2B",
+        "other": "Etwas anderes"
+      },
+      "needs": {
+        "website": "Website",
+        "webapp": "Web-App",
+        "ads": "Google Ads",
+        "seo": "SEO",
+        "design": "Design",
+        "chatbot": "KI-Chatbot",
+        "automation": "Automatisierung"
+      },
+      "budget": {
+        "lt1500": "unter 1.500 €",
+        "1500to3000": "1.500 – 3.000 €",
+        "3000to6000": "3.000 – 6.000 €",
+        "gt6000": "über 6.000 €",
+        "unsure": "Noch unklar"
+      },
+      "start": {
+        "asap": "So bald wie möglich",
+        "1to3": "In 1–3 Monaten",
+        "later": "Später",
+        "unsure": "Noch unklar"
+      }
     }
   }
 }

@@ -27,7 +27,7 @@ export function Field({
     <div className="flex flex-col gap-2">
       <label htmlFor={id} className="text-sm font-semibold">
         {label}
-        {required && <span aria-hidden className="text-cobalt"> *</span>}
+        {required && <span aria-hidden className="text-cobalt in-[.on-dark]:text-signal"> *</span>}
       </label>
       {children}
       {hint && !error && (
@@ -36,7 +36,7 @@ export function Field({
         </p>
       )}
       {error && (
-        <p id={`${id}-error`} role="alert" className="text-sm font-semibold text-danger">
+        <p id={`${id}-error`} role="alert" className="text-sm font-semibold text-danger in-[.on-dark]:text-[#ff8a80]">
           {error}
         </p>
       )}

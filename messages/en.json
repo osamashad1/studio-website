@@ -232,8 +232,7 @@
   "contact": {
     "title": "Request a project",
     "intro": "Tell me briefly about your business and your plans. I'll get back to you personally.",
-    "emailCta": "Email {email}",
-    "formSoon": "The enquiry form is coming soon."
+    "direct": "Prefer email?"
   },
   "demoBanner": {
     "text": "Demo by {studio} — this is what your website could look like.",
@@ -675,6 +674,67 @@
       "problem": "A new fragrance brand needs a presence that feels premium and stays in people's minds.",
       "solution": "A dark, elegant site with a real 3D bottle that turns as you scroll, and a story in three chapters.",
       "goal": "A brand people talk about – and more requests for sample sets and wholesale."
+    }
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "business": "Type of business",
+    "budget": "Budget",
+    "needs": "What do you need?",
+    "start": "Preferred start",
+    "message": "Your message",
+    "messageHint": "What does your business do, and what should the website achieve?",
+    "choose": "Please choose",
+    "privacy": "I have read the <link>privacy policy</link> and agree that my details are used to handle my enquiry.",
+    "submit": "Send request",
+    "sending": "Sending …",
+    "success": {
+      "title": "Thank you! I'll get back to you within 24 hours.",
+      "text": "Your request has arrived. You'll get my reply at the email address you entered."
+    },
+    "error": "Sorry, that didn't work. Please email me directly at {email}.",
+    "rateLimited": "You've just sent several requests. Please try again in a few minutes or email me directly at {email}.",
+    "errors": {
+      "required": "Please choose an option.",
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email address.",
+      "needs": "Please choose at least one service.",
+      "messageShort": "Please write at least 20 characters.",
+      "tooLong": "This text is too long.",
+      "privacy": "Please confirm the privacy policy."
+    },
+    "options": {
+      "business": {
+        "cafe": "Café / restaurant",
+        "craft": "Trades / crafts",
+        "shop": "Shop / retail",
+        "service": "Local service",
+        "export": "Export / B2B",
+        "other": "Something else"
+      },
+      "needs": {
+        "website": "Website",
+        "webapp": "Web app",
+        "ads": "Google Ads",
+        "seo": "SEO",
+        "design": "Design",
+        "chatbot": "AI chatbot",
+        "automation": "Automation"
+      },
+      "budget": {
+        "lt1500": "under €1,500",
+        "1500to3000": "€1,500 – 3,000",
+        "3000to6000": "€3,000 – 6,000",
+        "gt6000": "over €6,000",
+        "unsure": "Not sure yet"
+      },
+      "start": {
+        "asap": "As soon as possible",
+        "1to3": "In 1–3 months",
+        "later": "Later",
+        "unsure": "Not sure yet"
+      }
     }
   }
 }
