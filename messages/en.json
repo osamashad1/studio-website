@@ -5,7 +5,67 @@
   },
   "home": {
     "title": "Websites that bring you customers.",
-    "setupNote": "Project setup in progress. The real home page arrives in Phases 4 and 5.",
-    "switchLanguage": "Deutsche Version"
+    "setupNote": "Project setup and design system are ready. The real home page arrives in Phases 4 and 5.",
+    "styleguideLink": "View styleguide"
+  },
+  "nav": {
+    "services": "Services",
+    "packages": "Packages",
+    "portfolio": "Portfolio",
+    "about": "About me",
+    "contact": "Contact",
+    "cta": "Request a project",
+    "menu": "Menu",
+    "close": "Close",
+    "mainLabel": "Main navigation",
+    "skip": "Skip to content"
+  },
+  "language": {
+    "label": "Choose language",
+    "de": "Deutsch",
+    "en": "English"
+  },
+  "footer": {
+    "tagline": "Websites, SEO and Google Ads for small businesses — personal service from {city}, in German and English.",
+    "contact": "Contact",
+    "legal": "Legal",
+    "imprint": "Imprint",
+    "privacy": "Privacy policy",
+    "copyright": "© {year} {name}"
+  },
+  "styleguide": {
+    "title": "Styleguide",
+    "intro": "All basic building blocks of the website on one page — to check colours, type and components.",
+    "colors": "Colours",
+    "steelNote": "Use steel only for borders and large text. Use slate for small secondary text (AA contrast).",
+    "type": "Type scale",
+    "sample": "Websites that bring you customers.",
+    "buttons": "Buttons",
+    "ctaPrimary": "Request a project",
+    "ctaSecondary": "See packages",
+    "disabled": "Disabled",
+    "badges": "Badges",
+    "badgeAvailable": "1 project slot free in December",
+    "badgeRecommended": "Recommended",
+    "badgeDemo": "Demo project",
+    "forms": "Form fields",
+    "name": "Name",
+    "nameHint": "First and last name",
+    "email": "Email",
+    "emailError": "Please enter a valid email address.",
+    "business": "Type of business",
+    "choose": "Please choose",
+    "optionCafe": "Café / restaurant",
+    "optionCraft": "Trades / crafts",
+    "optionShop": "Shop / retail",
+    "message": "Message",
+    "messagePlaceholder": "Tell me briefly about your project …",
+    "accordion": "Accordion (FAQ)",
+    "q1": "How much does a website cost?",
+    "a1": "It depends on the scope. The packages show starting prices; you get an exact quote after the free first call.",
+    "q2": "How long does a project take?",
+    "a2": "Usually a few weeks — depending on scope and how quickly the content is ready.",
+    "dark": "On dark background",
+    "size64Note": "64px on tablet/desktop, 40px on phones"
   }
 }

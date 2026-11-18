@@ -5,7 +5,67 @@
   },
   "home": {
     "title": "Websites, die Kunden bringen.",
-    "setupNote": "Projekt-Setup läuft. Die echte Startseite kommt in Phase 4 und 5.",
-    "switchLanguage": "English version"
+    "setupNote": "Projekt-Setup und Design-System stehen. Die echte Startseite kommt in Phase 4 und 5.",
+    "styleguideLink": "Styleguide ansehen"
+  },
+  "nav": {
+    "services": "Leistungen",
+    "packages": "Pakete",
+    "portfolio": "Portfolio",
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "cta": "Projekt anfragen",
+    "menu": "Menü",
+    "close": "Schließen",
+    "mainLabel": "Hauptnavigation",
+    "skip": "Zum Inhalt springen"
+  },
+  "language": {
+    "label": "Sprache wählen",
+    "de": "Deutsch",
+    "en": "English"
+  },
+  "footer": {
+    "tagline": "Websites, SEO und Google Ads für kleine Unternehmen — persönlich aus {city}, auf Deutsch und Englisch.",
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "copyright": "© {year} {name}"
+  },
+  "styleguide": {
+    "title": "Styleguide",
+    "intro": "Alle Grundbausteine der Website auf einer Seite – zum Prüfen von Farben, Schrift und Komponenten.",
+    "colors": "Farben",
+    "steelNote": "Steel nur für Rahmen und große Schrift. Für kleinen Nebentext Slate verwenden (Kontrast AA).",
+    "type": "Schriftgrößen",
+    "sample": "Websites, die Kunden bringen.",
+    "buttons": "Buttons",
+    "ctaPrimary": "Projekt anfragen",
+    "ctaSecondary": "Pakete ansehen",
+    "disabled": "Deaktiviert",
+    "badges": "Badges",
+    "badgeAvailable": "1 Projektplatz frei im Dezember",
+    "badgeRecommended": "Empfohlen",
+    "badgeDemo": "Demo-Projekt",
+    "forms": "Formularfelder",
+    "name": "Name",
+    "nameHint": "Vor- und Nachname",
+    "email": "E-Mail",
+    "emailError": "Bitte eine gültige E-Mail-Adresse eingeben.",
+    "business": "Art des Unternehmens",
+    "choose": "Bitte wählen",
+    "optionCafe": "Café / Restaurant",
+    "optionCraft": "Handwerk",
+    "optionShop": "Laden / Einzelhandel",
+    "message": "Nachricht",
+    "messagePlaceholder": "Erzählen Sie kurz von Ihrem Projekt …",
+    "accordion": "Akkordeon (FAQ)",
+    "q1": "Was kostet eine Website?",
+    "a1": "Das hängt vom Umfang ab. Die Pakete zeigen Startpreise; ein genaues Angebot gibt es nach dem kostenlosen Erstgespräch.",
+    "q2": "Wie lange dauert ein Projekt?",
+    "a2": "Meist einige Wochen – abhängig von Umfang und davon, wie schnell Inhalte vorliegen.",
+    "dark": "Auf dunklem Hintergrund",
+    "size64Note": "64px auf Tablet/Desktop, 40px auf dem Handy"
   }
 }

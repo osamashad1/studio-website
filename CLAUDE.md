@@ -36,6 +36,7 @@ AI chatbots and automation. I take 1 new project per month (limited capacity).
 - Fonts (Google Fonts via next/font): "Unbounded" for headlines, "Instrument Sans" for body.
   Unbounded is very wide: headlines need deliberate line breaks / balanced wrapping.
 - Type scale: 14 / 16 / 20 / 28 / 40 / 64 px. Body line length max ~70 characters.
+  64px headlines only from sm (640px) up; on phones max 40px (Unbounded at 64px overflows 375px).
 - Radius: 8px small elements, 20px large panels.
 - Motion: ONE strong moment (the 3D hero). Everything else calm. Respect prefers-reduced-motion.
 - Avoid: generic SaaS card grids, ALL-CAPS labels, "01/02/03" numbers unless it is a real sequence,
